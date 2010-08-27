@@ -30,10 +30,6 @@ end
 
 def httparty_get(resource, response_fixture, params = {})
   url = "http://app.rentjuice.com/api/#{RENTJUICER_API_KEY}#{resource}"
-  unless params.blank?
-    stub_http_request(:get, url).with(:query => params).to_return(:body => mocked_response(response_fixture))
-  else
-    stub_http_request(:get, url).to_return(:body => mocked_response(response_fixture))
-  end
+  mock_get(resource, response_fixture, params)
   HTTParty.get url, :format => :json
 end
