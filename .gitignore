@@ -19,3 +19,4 @@ rdoc
 pkg
 
 ## PROJECT::SPECIFIC
+spec/rentjuicer_api_key.yml
