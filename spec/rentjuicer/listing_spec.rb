@@ -6,6 +6,15 @@ describe Rentjuicer::Listing do
     @listing = Rentjuicer::Listing.new(valid_listing_rash)
   end
   
+  it "should create methods from all hash keys" do
+    @listing.should respond_to(
+      "address", "agent_phone", "bedrooms", "latitude", "title", "photos", "featured", "url", "date_available", 
+      "square_footage", "agent_email", "rental_terms", "street", "fee", "property_type", "cross_street", "unit_number", 
+      "custom_fields", "last_updated", "features", "bathrooms", "rent", "neighborhoods", "street_number", "floor_number", 
+      "longitude", "description", "agent_name", "rentjuice_id"
+    )
+  end
+  
   it "should return rentjuice_id for id" do
     @listing.id.should == 200306
   end
