@@ -3,9 +3,9 @@ module Rentjuicer
     
     attr_accessor :body
     
-    def initialize(response)
+    def initialize(response, raise_error = true)
       @body = rash_response(response)
-      raise Error.new(@body.code, @body.message) unless success?
+      raise Error.new(@body.code, @body.message) if !success? && raise_error
     end
     
     def success?

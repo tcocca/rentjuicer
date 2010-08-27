@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
-describe "Rentjuicer::Error" do
+describe Rentjuicer::Client do
   
   before do
     @rentjuicer = new_rentjuicer
