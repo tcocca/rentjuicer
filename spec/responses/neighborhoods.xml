@@ -1,0 +1,227 @@
+<response> 
+  <status>ok</status> 
+  <count>44</count> 
+  <neighborhoods> 
+    <neighborhood> 
+      <rentjuice_id>51</rentjuice_id> 
+      <name>Admirals Hill</name> 
+      <active_listings>1</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>5</rentjuice_id> 
+      <name>Allston</name> 
+      <active_listings>0</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>759</rentjuice_id> 
+      <name>Arlington</name> 
+      <active_listings>0</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>12</rentjuice_id> 
+      <name>Back Bay</name> 
+      <active_listings>183</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>27</rentjuice_id> 
+      <name>Bay Village</name> 
+      <active_listings>11</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>9</rentjuice_id> 
+      <name>Beacon Hill</name> 
+      <active_listings>51</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>19</rentjuice_id> 
+      <name>Boston</name> 
+      <active_listings>351</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>10</rentjuice_id> 
+      <name>Brighton</name> 
+      <active_listings>1</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>4</rentjuice_id> 
+      <name>Brookline</name> 
+      <active_listings>30</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>6</rentjuice_id> 
+      <name>Cambridge</name> 
+      <active_listings>94</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>11</rentjuice_id> 
+      <name>Charlestown</name> 
+      <active_listings>26</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>31</rentjuice_id> 
+      <name>Chelsea</name> 
+      <active_listings>0</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>22</rentjuice_id> 
+      <name>Chestnut Hill</name> 
+      <active_listings>0</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>47</rentjuice_id> 
+      <name>Chinatown</name> 
+      <active_listings>2</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>57</rentjuice_id> 
+      <name>Cleveland Circle</name> 
+      <active_listings>1</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>15</rentjuice_id> 
+      <name>Dorchester</name> 
+      <active_listings>6</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>21</rentjuice_id> 
+      <name>Downtown</name> 
+      <active_listings>11</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>26</rentjuice_id> 
+      <name>East Boston</name> 
+      <active_listings>2</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>1</rentjuice_id> 
+      <name>Fenway</name> 
+      <active_listings>95</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>1007</rentjuice_id> 
+      <name>Financial District</name> 
+      <active_listings>11</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>50</rentjuice_id> 
+      <name>Harvard Square</name> 
+      <active_listings>1</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>13</rentjuice_id> 
+      <name>Jamaica Plain</name> 
+      <active_listings>0</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>2</rentjuice_id> 
+      <name>Kenmore</name> 
+      <active_listings>35</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>983</rentjuice_id> 
+      <name>Leather District</name> 
+      <active_listings>1</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>28</rentjuice_id> 
+      <name>Longwood</name> 
+      <active_listings>11</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>40</rentjuice_id> 
+      <name>Malden</name> 
+      <active_listings>5</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>36</rentjuice_id> 
+      <name>Medford</name> 
+      <active_listings>15</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>7</rentjuice_id> 
+      <name>Midtown</name> 
+      <active_listings>43</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>25</rentjuice_id> 
+      <name>Mission Hill</name> 
+      <active_listings>4</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>29</rentjuice_id> 
+      <name>Newton</name> 
+      <active_listings>1</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>14</rentjuice_id> 
+      <name>North End</name> 
+      <active_listings>47</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>41</rentjuice_id> 
+      <name>North Shore</name> 
+      <active_listings>17</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>43</rentjuice_id> 
+      <name>Roslindale</name> 
+      <active_listings>1</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>16</rentjuice_id> 
+      <name>Seaport</name> 
+      <active_listings>10</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>23</rentjuice_id> 
+      <name>Somerville</name> 
+      <active_listings>4</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>20</rentjuice_id> 
+      <name>South Boston</name> 
+      <active_listings>17</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>8</rentjuice_id> 
+      <name>South End</name> 
+      <active_listings>63</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>3</rentjuice_id> 
+      <name>Symphony</name> 
+      <active_listings>48</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>33</rentjuice_id> 
+      <name>Theatre District</name> 
+      <active_listings>2</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>18</rentjuice_id> 
+      <name>Waterfront</name> 
+      <active_listings>3</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>34</rentjuice_id> 
+      <name>Watertown</name> 
+      <active_listings>0</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>24</rentjuice_id> 
+      <name>West End</name> 
+      <active_listings>62</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>30</rentjuice_id> 
+      <name>West Roxbury</name> 
+      <active_listings>1</active_listings> 
+    </neighborhood> 
+    <neighborhood> 
+      <rentjuice_id>44</rentjuice_id> 
+      <name>Winthrop</name> 
+      <active_listings>0</active_listings> 
+    </neighborhood> 
+  </neighborhoods> 
+  <runtime>0.036</runtime> 
+</response>

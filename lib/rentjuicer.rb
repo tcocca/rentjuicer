@@ -1,0 +1,13 @@
+require 'rubygems'
+require 'httparty'
+require 'hashie'
+require 'rash'
+require 'will_paginate'
+
+require 'rentjuicer/client'
+require 'rentjuicer/response'
+require 'rentjuicer/error'
+require 'rentjuicer/lead'
+require 'rentjuicer/listings'
+require 'rentjuicer/listing'
+require 'rentjuicer/neighborhoods'
