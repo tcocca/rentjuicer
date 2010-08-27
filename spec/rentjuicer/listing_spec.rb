@@ -35,4 +35,54 @@ describe Rentjuicer::Listing do
     @listing.sorted_photos.should == sorted_photos_array
   end
   
+  context "default similar listings" do
+    before do
+      @rentjuicer = new_rentjuicer
+      mock_get('/listings.json', 'listings.json', {
+          :neighborhoods => "South Boston", 
+          :min_rent => "2250.0",
+          :max_rent => "2750.0",
+          :min_beds => "2",
+          :max_beds => "4",
+          :min_baths => "0",
+          :max_baths => "2",
+          :limit => "7",
+          :order_by => "rent",
+          :order_direction => "asc"
+      })
+      @similar_props = @listing.similar_listings(@rentjuicer)
+    end
+    
+    it "should return an array of listings" do
+      @similar_props.should be_kind_of(Array)
+      @similar_props.should have_at_most(6).listings
+      @similar_props.collect{|x| x.id}.should_not include(@listing.id)
+    end
+  end
+  
+  context "similar listings with custom limit" do
+    before do
+      @rentjuicer = new_rentjuicer
+      mock_get('/listings.json', 'listings.json', {
+          :neighborhoods => "South Boston", 
+          :min_rent => "2250.0",
+          :max_rent => "2750.0",
+          :min_beds => "2",
+          :max_beds => "4",
+          :min_baths => "0",
+          :max_baths => "2",
+          :limit => "5",
+          :order_by => "rent",
+          :order_direction => "asc"
+      })
+      @similar_props = @listing.similar_listings(@rentjuicer, 4)
+    end
+    
+    it "should return an array of listings" do
+      @similar_props.should be_kind_of(Array)
+      @similar_props.should have_at_most(4).listings
+      @similar_props.collect{|x| x.id}.should_not include(@listing.id)
+    end
+  end
+  
 end
