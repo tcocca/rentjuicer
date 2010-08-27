@@ -8,9 +8,13 @@ module Rentjuicer
       self.resource = "/leads.add.json"
     end
     
-    def create(name, params = {})
+    def create(name, params = {}, raise_error = false)
       params.merge!(:name => name)
-      Response.new(self.client.class.get(resource, :query => params))
+      Response.new(self.client.class.get(resource, :query => params), raise_error)
+    end
+    
+    def create!(name, params = {})
+      create(name, params = {}, true)
     end
     
   end
