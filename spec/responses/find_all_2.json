@@ -1,0 +1,1294 @@
+{
+    "status": "ok",
+    "page": 2,
+    "count": 20,
+    "total_count": 52,
+    "listings": [
+        {
+            "rentjuice_id": 96106,
+            "title": null,
+            "description": "Renovated two bedroom ideal for roommates - Unit features hardwood floors, high ceilings and renovated kitchens & baths. Laundry in the unit and Heat & Hot Water Included in the rent! Perfectly situated close to the Boston Common and Financail District lcose to all city conveniences.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "90 Warrenton St, Unit 17",
+            "street_number": 90,
+            "street": "Warrenton St",
+            "unit_number": 17,
+            "cross_street": null,
+            "latitude": 42.3504999,
+            "longitude": -71.0662,
+            "neighborhoods": [
+                "Bay Village",
+                "Midtown"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 2000,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 850,
+            "features": [
+                "Hardwood floors",
+                "Laundry in building"
+            ],
+            "rental_terms": [
+                "Cats Accepted",
+                "Dogs Accepted",
+                "Graduate Student Friendly",
+                "Heat Included",
+                "Student Friendly"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-05-17 14:10:50",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/96106"
+        },
+        {
+            "rentjuice_id": 96105,
+            "title": null,
+            "description": "Renovated two bedroom ideal for roommates - Unit features hardwood floors, high ceilings and renovated kitchens & baths. Laundry in the unit and Heat & Hot Water Included in the rent! Perfectly situated close to the Boston Common and Financail District lcose to all city conveniences.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "90 Warrenton St, Unit 14",
+            "street_number": 90,
+            "street": "Warrenton St",
+            "unit_number": 14,
+            "cross_street": null,
+            "latitude": 42.3504999,
+            "longitude": -71.0662,
+            "neighborhoods": [
+                "Bay Village",
+                "Midtown"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 2000,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 850,
+            "features": [
+                "Hardwood floors",
+                "Laundry in building"
+            ],
+            "rental_terms": [
+                "Cats Accepted",
+                "Dogs Accepted",
+                "Graduate Student Friendly",
+                "Heat Included",
+                "Student Friendly"
+            ],
+            "date_available": "2010-08-01",
+            "last_updated": "2010-06-11 08:58:55",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/96105"
+        },
+        {
+            "rentjuice_id": 96104,
+            "title": null,
+            "description": "Renovated two bedroom ideal for roommates - Unit features hardwood floors, high ceilings and renovated kitchens & baths. Laundry in the unit and Heat & Hot Water Included in the rent! Perfectly situated close to the Boston Common and Financail District lcose to all city conveniences.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "90 Warrenton St, Unit 10",
+            "street_number": 90,
+            "street": "Warrenton St",
+            "unit_number": 10,
+            "cross_street": null,
+            "latitude": 42.3504999,
+            "longitude": -71.0662,
+            "neighborhoods": [
+                "Bay Village",
+                "Midtown"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 2000,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 850,
+            "features": [
+                "Hardwood floors",
+                "Laundry in building"
+            ],
+            "rental_terms": [
+                "Cats Accepted",
+                "Dogs Accepted",
+                "Graduate Student Friendly",
+                "Heat Included",
+                "Student Friendly"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-05-17 14:10:37",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/96104"
+        },
+        {
+            "rentjuice_id": 96103,
+            "title": null,
+            "description": "Renovated two bedroom ideal for roommates - Unit features hardwood floors, high ceilings and renovated kitchens & baths. Laundry in the unit and Heat & Hot Water Included in the rent! Perfectly situated close to the Boston Common and Financail District lcose to all city conveniences.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "90 Warrenton St, Unit 7",
+            "street_number": 90,
+            "street": "Warrenton St",
+            "unit_number": 7,
+            "cross_street": null,
+            "latitude": 42.3504999,
+            "longitude": -71.0662,
+            "neighborhoods": [
+                "Bay Village",
+                "Midtown"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 2000,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 850,
+            "features": [
+                "Hardwood floors",
+                "Laundry in building"
+            ],
+            "rental_terms": [
+                "Cats Accepted",
+                "Dogs Accepted",
+                "Graduate Student Friendly",
+                "Heat Included",
+                "Student Friendly"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-05-17 14:10:31",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/96103"
+        },
+        {
+            "rentjuice_id": 95160,
+            "title": "Beautiful 2 BR",
+            "description": "Spacious 2 BR with gorgeous view to park, with hardwood floors, modern kitchen and bathroom, living room with high ceilings, lots of light and closet space, heat and hot water included. Laundry in building.",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "55 Park Dr, Unit 17",
+            "street_number": 55,
+            "street": "Park Dr",
+            "unit_number": 17,
+            "cross_street": null,
+            "latitude": 42.343017,
+            "longitude": -71.095109,
+            "neighborhoods": [
+                "Boston",
+                "Fenway"
+            ],
+            "floor_number": null,
+            "property_type": "Brownstone",
+            "rent": 1895,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Hardwood floors",
+                "On Site Laundry"
+            ],
+            "rental_terms": [
+                "First Month's Rent Required",
+                "Heat Included",
+                "Hot Water Included",
+                "Last Month's Rent Required",
+                "Security Deposit Required"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-08-05 14:22:30",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/05\/14\/961230.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/05\/14\/961233.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/95160"
+        },
+        {
+            "rentjuice_id": 95158,
+            "title": "Beautiful 2 BR",
+            "description": "Spacious 2 BR with gorgeous view to park, with hardwood floors, modern kitchen and bathroom, living room with high ceilings, lots of light and closet space, heat and hot water included. Laundry in building.",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "55 Park Dr, Unit 10",
+            "street_number": 55,
+            "street": "Park Dr",
+            "unit_number": 10,
+            "cross_street": null,
+            "latitude": 42.343017,
+            "longitude": -71.095109,
+            "neighborhoods": [
+                "Boston",
+                "Fenway"
+            ],
+            "floor_number": null,
+            "property_type": "Brownstone",
+            "rent": 1895,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Hardwood floors",
+                "On Site Laundry"
+            ],
+            "rental_terms": [
+                "First Month's Rent Required",
+                "Heat Included",
+                "Hot Water Included",
+                "Last Month's Rent Required",
+                "Security Deposit Required"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-08-05 14:22:16",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/05\/14\/961236.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/05\/14\/961238.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/95158"
+        },
+        {
+            "rentjuice_id": 92733,
+            "title": "Two Bed on S. Russell Street in Beacon Hill - 1\/2 FEE",
+            "description": "Recently renovated two bedroom apartment in the heart of Beacon Hill. New Kitchen & Bathroom, all new windows and freshly painted. Close to Charles Street shopping, Cambridge Street restaurants and public transportation. Heat & Hot Water Included in the rent. Laundry in the building! 1\/2 Broker Fee!!",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "17 S Russell St, Unit 2",
+            "street_number": 17,
+            "street": "S Russell St",
+            "unit_number": 2,
+            "cross_street": null,
+            "latitude": 42.3606,
+            "longitude": -71.0661,
+            "neighborhoods": [
+                "Beacon Hill"
+            ],
+            "floor_number": null,
+            "property_type": "Brownstone",
+            "rent": 2000,
+            "fee": 3,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Hardwood floors",
+                "Laundry in building",
+                "Modern bathrooms",
+                "Updated\/renovated kitchen"
+            ],
+            "rental_terms": [
+                "First Month's Rent Required",
+                "Graduate Student Friendly",
+                "Heat Included",
+                "Hot Water Included",
+                "Last Month's Rent Required"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-08-02 10:54:29",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1631388.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1631389.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1631366.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1631363.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1631358.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1631365.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1631371.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1631384.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/05\/11\/912830.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/05\/11\/930575.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/92733"
+        },
+        {
+            "rentjuice_id": 74944,
+            "title": "Spacious 2BR in Fenway at a Great Price! Available 9\/1- 1\/2 FEE",
+            "description": "Renovated 2BR in a great location for a great price. Hardwood Floors, updated kitchen and bathroom. Building is professionally maintained. Permit street parking. Walking distance to Fenway Park, Boylston St., Back Bay, Movie Theater, Museum of Fine Arts, Shaws, Game On, Baseball Tavern,Landsdowne St. area. Available 9\/1!\nEmail Bill at bmacgregor@bradvisors.com",
+            "agent_name": "Bill Macgregor",
+            "agent_email": "bmacgregor@bradvisors.com",
+            "agent_phone": "617-850-9663",
+            "featured": 0,
+            "address": "106 Queensberry St., Unit 5",
+            "street_number": 106,
+            "street": "Queensberry St.",
+            "unit_number": 5,
+            "cross_street": null,
+            "latitude": 42.3418,
+            "longitude": -71.1,
+            "neighborhoods": [
+                "Boston",
+                "Fenway",
+                "Kenmore",
+                "Longwood",
+                "Symphony"
+            ],
+            "floor_number": 1,
+            "property_type": "Apartment Building",
+            "rent": 1875,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Dishwasher",
+                "Hardwood floors",
+                "Microwave",
+                "Refrigerator",
+                "Stove",
+                "Updated\/renovated kitchen"
+            ],
+            "rental_terms": [
+                "Heat Included",
+                "Hot Water Included"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-04-09 18:11:25",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/02\/509710.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/02\/509770.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/02\/509711.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/02\/509766.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/02\/509712.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/02\/509767.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/02\/509713.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/02\/509768.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/02\/509714.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/02\/509776.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/02\/509715.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/02\/509775.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/74944"
+        },
+        {
+            "rentjuice_id": 62527,
+            "title": null,
+            "description": null,
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "929 Massachusetts Ave, Unit ",
+            "street_number": 929,
+            "street": "Massachusetts Ave",
+            "unit_number": null,
+            "cross_street": null,
+            "latitude": 42.3302987,
+            "longitude": -71.069851,
+            "neighborhoods": [
+                "Cambridge"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 2000,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": null,
+            "rental_terms": null,
+            "date_available": "2009-11-01",
+            "last_updated": "2010-03-26 19:51:50",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/62527"
+        },
+        {
+            "rentjuice_id": 62482,
+            "title": null,
+            "description": null,
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "0 Queensberry St, Unit ",
+            "street_number": 0,
+            "street": "Queensberry St",
+            "unit_number": null,
+            "cross_street": null,
+            "latitude": 42.3434634,
+            "longitude": -71.0946486,
+            "neighborhoods": [
+                "Fenway"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 1950,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": null,
+            "rental_terms": null,
+            "date_available": "2009-01-01",
+            "last_updated": "2010-03-26 19:50:37",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/62482"
+        },
+        {
+            "rentjuice_id": 62481,
+            "title": null,
+            "description": null,
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "0 Queensberry St, Unit ",
+            "street_number": 0,
+            "street": "Queensberry St",
+            "unit_number": null,
+            "cross_street": null,
+            "latitude": 42.3434634,
+            "longitude": -71.0946486,
+            "neighborhoods": [
+                "Fenway"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 1900,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": null,
+            "rental_terms": null,
+            "date_available": "2009-01-01",
+            "last_updated": "2010-03-26 19:50:37",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/62481"
+        },
+        {
+            "rentjuice_id": 62480,
+            "title": null,
+            "description": null,
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "0 Queensberry St, Unit ",
+            "street_number": 0,
+            "street": "Queensberry St",
+            "unit_number": null,
+            "cross_street": null,
+            "latitude": 42.3434634,
+            "longitude": -71.0946486,
+            "neighborhoods": [
+                "Fenway"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 1850,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": null,
+            "rental_terms": null,
+            "date_available": "2009-07-01",
+            "last_updated": "2010-03-26 19:50:37",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/62480"
+        },
+        {
+            "rentjuice_id": 61681,
+            "title": "Fenway 2BR unit- NO FEE!!!-",
+            "description": "Gutted 2BR in a great location. Carpets, new kitchen and bathroom. Building is professionally maintained. Permit street parking. Walking distance to Fenway Park, Movie Theater, Museum of Fine Arts, Shaws, Game On, Baseball Tavern, Landsdowne St. area. Available now!",
+            "agent_name": "Bill Macgregor",
+            "agent_email": "bmacgregor@bradvisors.com",
+            "agent_phone": "617-850-9663",
+            "featured": 0,
+            "address": "120 Peterborough St., Unit BASE-4",
+            "street_number": 120,
+            "street": "Peterborough St.",
+            "unit_number": "BASE-4",
+            "cross_street": null,
+            "latitude": 42.3427,
+            "longitude": -71.1001,
+            "neighborhoods": [
+                "Fenway"
+            ],
+            "floor_number": null,
+            "property_type": "Apartment Building",
+            "rent": 1875,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Carpet",
+                "Granite countertops",
+                "Laundry in building",
+                "Microwave",
+                "On Site Laundry",
+                "Refrigerator",
+                "Stove",
+                "Updated\/renovated kitchen"
+            ],
+            "rental_terms": null,
+            "date_available": "2010-04-01",
+            "last_updated": "2010-04-28 13:23:56",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375126.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/376576.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375141.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/376548.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375142.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/376516.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375145.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/376567.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/61681"
+        },
+        {
+            "rentjuice_id": 61680,
+            "title": "Spacious 2BR in Historic FENWAY- Available 5\/1- 1\/2 FEE",
+            "description": "Renovated 2BR in a great location for a great price. Hardwood Floors, updated kitchen and bathroom. Building is professionally managed & maintained. Permit street parking. Walking distance to Fenway Park, Boylston St., Regal Cinemas Movie Theater, Museum of Fine Arts, Shaws, Game On!, Baseball Tavern, Landsdowne St. area. Available now!\nCall Bill: 617-293-5297\nEmail: bmacgregor@bradvisors.com",
+            "agent_name": "Bill Macgregor",
+            "agent_email": "bmacgregor@bradvisors.com",
+            "agent_phone": "617-850-9663",
+            "featured": 0,
+            "address": "112 Jersey St., Unit 10",
+            "street_number": 112,
+            "street": "Jersey St.",
+            "unit_number": 10,
+            "cross_street": null,
+            "latitude": 42.3431,
+            "longitude": -71.0969,
+            "neighborhoods": [
+                "Boston",
+                "Fenway",
+                "Kenmore",
+                "Symphony"
+            ],
+            "floor_number": 3,
+            "property_type": "Apartment Building",
+            "rent": 1950,
+            "fee": 3,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Dishwasher",
+                "Granite countertops",
+                "Hardwood floors",
+                "Laundry in building",
+                "Microwave",
+                "On Site Laundry",
+                "Refrigerator",
+                "Stove",
+                "Updated\/renovated kitchen"
+            ],
+            "rental_terms": [
+                "Heat Included",
+                "Hot Water Included"
+            ],
+            "date_available": "2010-05-01",
+            "last_updated": "2010-04-28 00:26:18",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375068.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375363.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375067.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375361.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375066.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375365.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375065.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375373.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375305.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375367.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375062.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375359.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375059.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375371.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/61680"
+        },
+        {
+            "rentjuice_id": 61679,
+            "title": "Fenway 2BR w Granite Counters in Kit & Bathroom- Available NOW!!!",
+            "description": "A 2BR available NOW. 1\/2 Fee! Hardwood Floors, granite countertops in the kitchen and bathroom. Building is professionally maintained. Great closet space & spacious bathroom. Permit street parking. Walking distance to Fenway Park, Boylston St., Back Bay, Movie Theater, Museum of Fine Arts, Shaws, Game On, Baseball Tavern, Kenmore Sq., Landsdowne St. area. Available now!\nCall Bill at 617-293-5297\n",
+            "agent_name": "Bill Macgregor",
+            "agent_email": "bmacgregor@bradvisors.com",
+            "agent_phone": "617-850-9663",
+            "featured": 0,
+            "address": "55 Queensberry St., Unit 7",
+            "street_number": 55,
+            "street": "Queensberry St.",
+            "unit_number": 7,
+            "cross_street": null,
+            "latitude": 42.342753,
+            "longitude": -71.097612,
+            "neighborhoods": [
+                "Boston",
+                "Fenway",
+                "Kenmore",
+                "Longwood",
+                "Symphony"
+            ],
+            "floor_number": 2,
+            "property_type": "Apartment Building",
+            "rent": 1875,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Dishwasher",
+                "Granite countertops",
+                "Hardwood floors",
+                "Microwave",
+                "Refrigerator",
+                "Updated\/renovated kitchen"
+            ],
+            "rental_terms": [
+                "Heat Included",
+                "Hot Water Included"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-07-13 21:28:13",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375051.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375339.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375049.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375351.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375047.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375353.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375045.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375355.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375043.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375357.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/61679"
+        },
+        {
+            "rentjuice_id": 61678,
+            "title": "Charming 2BR Apt in Fenway $1,925- HW Floors with updated Kit & Bath",
+            "description": "Renovated 2BR in a great location and a great value! Hardwood Floors, updated kitchen and bathroom. Building is professionally maintained. Unit facing the street. Permit street parking. Walking distance to Fenway Park, Movie Theater, Museum of Fine Arts, Shaws, Game On, Baseball Tavern, Landsdowne St. area. Available now!\nCall Bill: 617-293-5297\nEmail: bmacgregor@bradvisors.com",
+            "agent_name": "Bill Macgregor",
+            "agent_email": "bmacgregor@bradvisors.com",
+            "agent_phone": "617-850-9663",
+            "featured": 0,
+            "address": "102 Queensberry St., Unit 6",
+            "street_number": 102,
+            "street": "Queensberry St.",
+            "unit_number": 6,
+            "cross_street": null,
+            "latitude": 42.3418,
+            "longitude": -71.0997,
+            "neighborhoods": [
+                "Boston",
+                "Fenway",
+                "Kenmore",
+                "Symphony"
+            ],
+            "floor_number": 2,
+            "property_type": "Apartment Building",
+            "rent": 1925,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Dishwasher",
+                "Hardwood floors",
+                "Microwave",
+                "Refrigerator",
+                "Updated\/renovated kitchen"
+            ],
+            "rental_terms": [
+                "Heat Included",
+                "Hot Water Included"
+            ],
+            "date_available": "2010-04-01",
+            "last_updated": "2010-04-09 17:30:21",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375034.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375325.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375033.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375323.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375032.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375327.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375031.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375329.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375029.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375331.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375028.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/03\/22\/375335.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/61678"
+        },
+        {
+            "rentjuice_id": 61201,
+            "title": null,
+            "description": null,
+            "agent_name": "Kate Robinson",
+            "agent_email": "krobinson@bradvisors.com",
+            "agent_phone": "617-850-9664",
+            "featured": 0,
+            "address": "52 Clearway Street, Unit 6",
+            "street_number": 52,
+            "street": "Clearway Street",
+            "unit_number": 6,
+            "cross_street": "Massachusetts Avenue",
+            "latitude": 42.3451856,
+            "longitude": -71.0848272,
+            "neighborhoods": [
+                "Back Bay"
+            ],
+            "floor_number": 3,
+            "property_type": "Apartment Complex",
+            "rent": 1995,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 500,
+            "features": [
+                "Central heat",
+                "Eat-in Kitchen",
+                "Hardwood floors",
+                "Patio or deck",
+                "Satellite television"
+            ],
+            "rental_terms": [
+                "First Month's Rent Required",
+                "Heat Included",
+                "Hot Water Included",
+                "Student Friendly"
+            ],
+            "date_available": "2010-05-01",
+            "last_updated": "2010-04-08 19:40:14",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/61201"
+        },
+        {
+            "rentjuice_id": 39478,
+            "title": "OCTOBER RENTAL - EASTSIDE SOUTHIE 2BR PLUS OFFICE",
+            "description": "Southie 2BR plus office avail oct 1st or nov 1st.  new washer\/dryer in unit, storage area, common yard, on a quiet street on the east side of southie.   \n2nd flr (separate entrance) in a two family \nhardwood throughout\nSq footage is approx 1000 sq ft  \ndeeded, secure and dry storage unit in basement \nsmall pet okay \neasy on street parking with overnite parking in school lot at top of street \navailable to rent 10\/1 or 11\/1\ncontact lguittarr@bradvisors.com to see!",
+            "agent_name": "Lindsay Guittarr",
+            "agent_email": "lguittarr@bradvisors.com",
+            "agent_phone": "603-512-3263",
+            "featured": 0,
+            "address": "52 Story St",
+            "street_number": 52,
+            "street": "Story St",
+            "unit_number": null,
+            "cross_street": "H",
+            "latitude": 42.333428,
+            "longitude": -71.0418977,
+            "neighborhoods": [
+                "South Boston"
+            ],
+            "floor_number": 2,
+            "property_type": null,
+            "rent": 1600,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Disposal",
+                "Hardwood floors",
+                "Microwave",
+                "On Site Laundry",
+                "Refrigerator",
+                "Storage unit",
+                "Washer\/dryer in unit",
+                "Yard"
+            ],
+            "rental_terms": [
+                "Cats and Dogs Accepted"
+            ],
+            "date_available": "2010-10-01",
+            "last_updated": "2010-08-27 11:45:12",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/01\/04\/78748.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/23\/614490.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/01\/04\/78749.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/23\/614481.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/01\/04\/78750.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/23\/704454.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/01\/04\/78751.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/23\/614497.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/01\/04\/78752.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/23\/614529.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/01\/04\/78753.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/23\/614496.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/01\/04\/78754.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/23\/614492.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/01\/04\/78755.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/04\/23\/614514.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/39478"
+        },
+        {
+            "rentjuice_id": 38469,
+            "title": null,
+            "description": "An extraordinary new neighborhood and new construction. Just 10 minutes from downtown Boston and steps from the Oak Grove subway station on the MBTA's Orange Line. These units combine the nearby conveniences and elegant streetscapes you'd expect from the city, but with the familiar feel and affordability of a quaint New England town.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "2 Main St, Unit 201",
+            "street_number": 2,
+            "street": "Main St",
+            "unit_number": 201,
+            "cross_street": null,
+            "latitude": 42.3722252,
+            "longitude": -71.0619417,
+            "neighborhoods": [
+                "Malden"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 1920,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "square_footage": 1100,
+            "features": [
+                "Cable television",
+                "Carpet",
+                "Central Air Conditioning",
+                "Dining room",
+                "Dishwasher",
+                "Disposal",
+                "Elevator",
+                "Microwave",
+                "Pool",
+                "Washer\/dryer in unit"
+            ],
+            "rental_terms": [
+                "Cats Accepted",
+                "First Month's Rent Required",
+                "Heat Included"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-08-06 21:47:35",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/09\/55486.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/17\/63520.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/09\/55485.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/17\/63762.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/09\/55484.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/17\/61605.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/09\/55483.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/17\/72024.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/09\/55482.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/17\/63187.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/09\/55481.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/17\/69651.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/38469"
+        },
+        {
+            "rentjuice_id": 38420,
+            "title": null,
+            "description": "A contemporary high-rise apartment building with brand new interiors conveniently located between Harvard and Central Squares in Cambridge. Units feature hardwood floors, Walk in closets, Air Conditioning, a renovated kitchen & bath. Building features security, laundry facilities, on-site management, elevator and parking garages. Cats allowed!",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "929 Massachusetts Ave, Unit ",
+            "street_number": 929,
+            "street": "Massachusetts Ave",
+            "unit_number": null,
+            "cross_street": null,
+            "latitude": 42.3300189,
+            "longitude": -71.069608,
+            "neighborhoods": null,
+            "floor_number": null,
+            "property_type": null,
+            "rent": 2000,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 950,
+            "features": [
+                "Central Air Conditioning",
+                "Dishwasher",
+                "Elevator",
+                "Hardwood floors"
+            ],
+            "rental_terms": [
+                "Cats Accepted",
+                "Heat Included",
+                "Student Friendly"
+            ],
+            "date_available": null,
+            "last_updated": null,
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/09\/55950.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/17\/62481.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/09\/55949.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/17\/66059.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/09\/55948.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2009\/12\/17\/69598.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/38420"
+        }
+    ],
+    "runtime": 2.60015
+}

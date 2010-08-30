@@ -1,9 +1,67 @@
 {
     "status": "ok",
-    "page": 1,
-    "count": 1,
-    "total_count": 1,
+    "page": 2,
+    "count": 2,
+    "total_count": 22,
     "listings": [
+        {
+            "rentjuice_id": 197540,
+            "title": null,
+            "description": "The large eat-in kitchen includes ceramic tiles, dishwasher, garbage disposal. The living room displays a decorative fireplace and hardwood floors. Elevator. Unit also includes a newly renovated bathroom, elevator access, a porch and a washer and dryer.",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "452 Park Dr, Unit 5",
+            "street_number": 452,
+            "street": "Park Dr",
+            "unit_number": 5,
+            "cross_street": null,
+            "latitude": 42.3456771,
+            "longitude": -71.1046377,
+            "neighborhoods": [
+                "Boston",
+                "Fenway",
+                "Kenmore"
+            ],
+            "floor_number": null,
+            "property_type": "Condominium",
+            "rent": 2400,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Decorative fireplace",
+                "Eat-in Kitchen",
+                "Hardwood floors",
+                "Modern bathrooms",
+                "Updated\/renovated kitchen",
+                "Washer\/dryer in unit"
+            ],
+            "rental_terms": [
+                "First Month's Rent Required",
+                "Security Deposit Required"
+            ],
+            "date_available": "2010-08-18",
+            "last_updated": "2010-08-19 14:27:48",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/19\/2948952.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/19\/2948953.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/197540"
+        },
         {
             "rentjuice_id": 200306,
             "title": "HUGE 3BR ACROSS FROM BEACH AVAIL 9\/15, PARKING AVAILABLE TOO",
@@ -124,5 +182,5 @@
             "url": "http:\/\/app.rentjuice.com\/listings\/200306"
         }
     ],
-    "runtime": 0.16001
+    "runtime": 0.96805
 }

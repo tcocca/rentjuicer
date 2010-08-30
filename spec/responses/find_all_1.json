@@ -1,0 +1,1211 @@
+{
+    "status": "ok",
+    "page": 1,
+    "count": 20,
+    "total_count": 52,
+    "listings": [
+        {
+            "rentjuice_id": 195626,
+            "title": null,
+            "description": null,
+            "agent_name": "Lindsay Guittarr",
+            "agent_email": "lguittarr@bradvisors.com",
+            "agent_phone": "603-512-3263",
+            "featured": 0,
+            "address": "125 Farragut Rd, Unit 35",
+            "street_number": 125,
+            "street": "Farragut Rd",
+            "unit_number": 35,
+            "cross_street": null,
+            "latitude": 42.3341062,
+            "longitude": -71.0249828,
+            "neighborhoods": null,
+            "floor_number": null,
+            "property_type": null,
+            "rent": 2000,
+            "fee": 0,
+            "bedrooms": 3,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": null,
+            "rental_terms": null,
+            "date_available": "2010-09-01",
+            "last_updated": "2010-08-16 18:03:29",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/195626"
+        },
+        {
+            "rentjuice_id": 195562,
+            "title": "NO FEE NO FEE! 3BR - LARGE 2 FLOOR UNIT IN NEPONSET AREA OF DORCHESTER",
+            "description": "Avail Oct or November, this spacious bi-level unit in multi-family in Neponset area of Dorchester has 3 bedrooms and an additional room to be used as an office, plus a dining room!  Floors have been completely redone, lndry in unit, cats ok, gas fireplace, surround sound in living room, 2 parking spots, central air.  Across street from bus stop to Field's Corner, in safe area close to highway (93), grocery store, and red line.  1BR has walk in closet, easy street parking out front as well.  Pls email to set up showing.",
+            "agent_name": "Lindsay Guittarr",
+            "agent_email": "lguittarr@bradvisors.com",
+            "agent_phone": "603-512-3263",
+            "featured": 0,
+            "address": "248 Neponset Ave, Unit ",
+            "street_number": 248,
+            "street": "Neponset Ave",
+            "unit_number": null,
+            "cross_street": null,
+            "latitude": 42.290401,
+            "longitude": -71.0486672,
+            "neighborhoods": [
+                "Dorchester"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 1800,
+            "fee": 0,
+            "bedrooms": 3,
+            "bathrooms": 1.5,
+            "square_footage": null,
+            "features": null,
+            "rental_terms": null,
+            "date_available": "2010-10-01",
+            "last_updated": "2010-08-30 13:03:02",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894853.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894849.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894851.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894842.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894845.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894837.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894844.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894835.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894802.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894803.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894799.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894808.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894801.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894812.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894793.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894789.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894786.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/16\/2894787.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/195562"
+        },
+        {
+            "rentjuice_id": 194330,
+            "title": "Beautiful 2 BR",
+            "description": "Large garden-level 2 BR with all utilities included. Modern kitchen and bathroom. Wall-to-wall carpeting, lots of closet space, laundry in building.",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "55 Park Dr, Unit B1",
+            "street_number": 55,
+            "street": "Park Dr",
+            "unit_number": "B1",
+            "cross_street": null,
+            "latitude": 42.343017,
+            "longitude": -71.095109,
+            "neighborhoods": [
+                "Boston",
+                "Fenway"
+            ],
+            "floor_number": null,
+            "property_type": "Brownstone",
+            "rent": 1695,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Carpet",
+                "Laundry in building",
+                "On Site Laundry",
+                "Updated\/renovated kitchen"
+            ],
+            "rental_terms": [
+                "Electricity Included",
+                "First Month's Rent Required",
+                "Heat Included",
+                "Hot Water Included",
+                "Last Month's Rent Required",
+                "Security Deposit Required"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-08-13 15:51:25",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/13\/2852684.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/13\/2862727.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/194330"
+        },
+        {
+            "rentjuice_id": 189518,
+            "title": null,
+            "description": "Beautiful 2 bedroom apartment, sunny, large, has open bar layout perfect to have dinners and entertain friends and family.\n\nExposed brick walls\n\nHas one parking space in the back (tandem) and access to private laundry one bathroom, efficient utilities.\n\nABOUT THE LOCATION - 206 Northampton st\nthis unit is conveniently located on Northampton street, near the corner with Tremont street. this location is ideal for anyone attending northeastern university, BU medical, or working in the south-end in general.\n\n\nwhile still part of the south-end, this street has the added bonus of being quiet (no loud trucks, motorcycles or ambulances waking you up at night) and lower rents than locations closer to the other side of the south end, so saving you money while maintaining the same level of convenience and accessibility! \n\nthere are plenty of shops and cafes in the area, along with stops for the green line, silver line, and orange line. \n\nfurthermore, this location is not too far from the south-bay shopping mall, home to target, best buy, home depot and more.",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "206 Northampton St, Unit ",
+            "street_number": 206,
+            "street": "Northampton St",
+            "unit_number": null,
+            "cross_street": null,
+            "latitude": 42.3377,
+            "longitude": -71.0801,
+            "neighborhoods": [
+                "Back Bay",
+                "Boston",
+                "South End"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 2000,
+            "fee": 3,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Washer\/dryer in unit"
+            ],
+            "rental_terms": null,
+            "date_available": "2010-09-01",
+            "last_updated": "2010-08-11 12:01:39",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/11\/2792420.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/11\/2792422.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/189518"
+        },
+        {
+            "rentjuice_id": 186572,
+            "title": "Comfortable 2-Bedroom on Beacon Hill's Charles Street - NO FEE",
+            "description": "A neat 2-bedroom apartment on Charles Street. Small kitchen, full bath, and two bedrooms. Hardwood floors throughout. A very nice building, within a 5-minute walk to MGH\/Charles St. T-station or Park Street\/Arlington green line. Close to Boston Common & Public Garden. Includes hot water, tenant pays heat. Efficient gas boiler hot water heat system.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "38 Charles St, Unit 4TH FLOOR",
+            "street_number": 38,
+            "street": "Charles St",
+            "unit_number": "4TH FLOOR",
+            "cross_street": null,
+            "latitude": 42.3571,
+            "longitude": -71.0702,
+            "neighborhoods": [
+                "Beacon Hill",
+                "Boston"
+            ],
+            "floor_number": null,
+            "property_type": "Brownstone",
+            "rent": 2000,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Hardwood floors",
+                "Laundry in building",
+                "Refrigerator",
+                "Stove"
+            ],
+            "rental_terms": [
+                "Cats Accepted",
+                "Dogs Accepted",
+                "Hot Water Included"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-08-23 15:54:04",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/09\/2708207.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/09\/2715813.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/09\/2708208.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/09\/2710575.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/09\/2708209.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/09\/2710570.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/09\/2708210.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/09\/2716886.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/09\/2708211.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/08\/09\/2710569.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/186572"
+        },
+        {
+            "rentjuice_id": 177970,
+            "title": "2bed\/1.5 bath! in Fenway-Duplex Condo! H\/HW incl.",
+            "description": "Large, two bedroom duplex condo with nice living room. Several spacious closets throughout. Features 1.5 bathrooms, wall to wall carpet, 8' ceilings throughout and kitchen with dishwasher. Building has a beautiful renovated lobby, elevator and on site management. This unit can be rented unfurnished or furnished. No pets. Heat and hot water included. Available 9\/1\/10!! GRADS AND PROFESSIONALS ONLY!!",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "108 Peterborough St, Unit 3H",
+            "street_number": 108,
+            "street": "Peterborough St",
+            "unit_number": "3H",
+            "cross_street": null,
+            "latitude": 42.3429754,
+            "longitude": -71.1000195,
+            "neighborhoods": [
+                "Boston",
+                "Fenway"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 2000,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": null,
+            "rental_terms": null,
+            "date_available": "2010-09-01",
+            "last_updated": "2010-07-29 14:40:14",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/29\/2409029.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/29\/2409093.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/177970"
+        },
+        {
+            "rentjuice_id": 155544,
+            "title": "Two Bedroom Apartment in Beacon Hill",
+            "description": ":BEACON HILL:\nJoy Street - Two Bedroom Apartment\nHardwood Floors throughout!\nHeat & Hot Water Included!!\n",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "70 Joy St, Unit 7",
+            "street_number": 70,
+            "street": "Joy St",
+            "unit_number": 7,
+            "cross_street": null,
+            "latitude": 42.360619,
+            "longitude": -71.065139,
+            "neighborhoods": [
+                "Beacon Hill",
+                "Boston"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 2000,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Laundry in unit"
+            ],
+            "rental_terms": [
+                "First Month's Rent Required",
+                "Heat Included",
+                "Hot Water Included",
+                "Last Month's Rent Required",
+                "Security Deposit Required",
+                "Student Friendly"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-08-26 13:36:01",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/22\/2209437.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/22\/2209510.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/22\/2209438.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/22\/2209501.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/155544"
+        },
+        {
+            "rentjuice_id": 154759,
+            "title": "LARGE TWO BEDROOM ON SHORT STREET",
+            "description": "Spacious two bedroom apartment on Short Street in Brookline. Located on the second floor, this unit boasts hardwood floors throughout, high ceilings, large windows, two big bedrooms, an eat-in kitchen, plentiful closet space, and a small private deck. A pretty courtyard sits in front of the building.\n\nHeat & Hot Water are Included in the rent.\nThere is No Broker Fee for this apartment.\n",
+            "agent_name": "Liz Sower",
+            "agent_email": "lsower@bradvisors.com",
+            "agent_phone": "617-850-9693",
+            "featured": 0,
+            "address": "18 Short St, Unit 1",
+            "street_number": 18,
+            "street": "Short St",
+            "unit_number": 1,
+            "cross_street": null,
+            "latitude": 42.3407049,
+            "longitude": -71.1277827,
+            "neighborhoods": [
+                "Brookline"
+            ],
+            "floor_number": 2,
+            "property_type": "Apartment Building",
+            "rent": 1700,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Eat-in Kitchen",
+                "Hardwood floors",
+                "Patio or deck"
+            ],
+            "rental_terms": [
+                "Cats Accepted",
+                "First Month's Rent Required",
+                "Graduate Student Friendly",
+                "Heat Included",
+                "Hot Water Included",
+                "Last Month's Rent Required"
+            ],
+            "date_available": "2010-07-15",
+            "last_updated": "2010-07-21 17:01:12",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/154759"
+        },
+        {
+            "rentjuice_id": 154758,
+            "title": "CLASSIC AND CLEAN TWO BED ON GARDNER STREET",
+            "description": "Spacious and bright two bedroom apartment on Gardner Road in Brookline. Classic details, parquet floors throughout, floor to ceiling windows, plentiful closet space, freshly painted walls and a large private deck. Central Air conditioning!!\n\nHeat & Hot Water Included in the rent!\nNo Broker Fee! Please call to view this apartment today!!",
+            "agent_name": "Liz Sower",
+            "agent_email": "lsower@bradvisors.com",
+            "agent_phone": "617-850-9693",
+            "featured": 0,
+            "address": "30 Gardner Rd, Unit 2E",
+            "street_number": 30,
+            "street": "Gardner Rd",
+            "unit_number": "2E",
+            "cross_street": null,
+            "latitude": 42.3377959,
+            "longitude": -71.1282663,
+            "neighborhoods": [
+                "Brookline"
+            ],
+            "floor_number": 2,
+            "property_type": "Apartment Building",
+            "rent": 1975,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Air Conditioning",
+                "Central Air Conditioning",
+                "Dining room",
+                "Dishwasher",
+                "Elevator",
+                "Hardwood floors",
+                "Patio or deck",
+                "Walk In Closet"
+            ],
+            "rental_terms": [
+                "First Month's Rent Required",
+                "Heat Included",
+                "Hot Water Included",
+                "Last Month's Rent Required"
+            ],
+            "date_available": "2010-07-15",
+            "last_updated": "2010-07-21 16:52:43",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/154758"
+        },
+        {
+            "rentjuice_id": 149780,
+            "title": null,
+            "description": null,
+            "agent_name": "Lindsay Guittarr",
+            "agent_email": "lguittarr@bradvisors.com",
+            "agent_phone": "603-512-3263",
+            "featured": 0,
+            "address": "366 W Broadway, Unit 2",
+            "street_number": 366,
+            "street": "W Broadway",
+            "unit_number": 2,
+            "cross_street": null,
+            "latitude": 42.3379821,
+            "longitude": -71.0492997,
+            "neighborhoods": null,
+            "floor_number": null,
+            "property_type": null,
+            "rent": 2000,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": null,
+            "rental_terms": null,
+            "date_available": "2010-08-01",
+            "last_updated": "2010-07-14 20:42:04",
+            "photos": null,
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/149780"
+        },
+        {
+            "rentjuice_id": 149756,
+            "title": "3BR on Tremont!",
+            "description": "Garden level two bedroom on TREMONT ST.- \n* Approximately 1,000 Sq. Ft.\n* Two equal sized bedrooms\n* Parquet Floors\n* Exposed Brick\n* Large living room\n* Pets are Welcome\n* Five to Seven minute walk to Back Bay train station\n\nLarge two bedrooms in the South End aren't this cheap.\nCall now!",
+            "agent_name": "Bill Macgregor",
+            "agent_email": "bmacgregor@bradvisors.com",
+            "agent_phone": "617-850-9663",
+            "featured": 0,
+            "address": "593 Tremont St, Unit 2",
+            "street_number": 593,
+            "street": "Tremont St",
+            "unit_number": 2,
+            "cross_street": null,
+            "latitude": 42.343295,
+            "longitude": -71.073233,
+            "neighborhoods": [
+                "Boston",
+                "South End"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 1850,
+            "fee": 1,
+            "bedrooms": 3,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": null,
+            "rental_terms": null,
+            "date_available": "2010-09-01",
+            "last_updated": "2010-07-14 14:53:48",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/14\/2046168.jpg",
+                    "sort_order": 1,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/14\/2046271.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/14\/2046169.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/14\/2046280.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/149756"
+        },
+        {
+            "rentjuice_id": 149740,
+            "title": "BEACON HILL - - JOY STREET - - 2 BED FOR SEPT 1ST",
+            "description": "BEACON HILL: Excellent two bedroom apartment on Joy Street. Heat & Hot Water included and students welcome. Available for 9\/1\/10. No pets. Please call to view this apartment today!",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "70 Joy St, Unit 9",
+            "street_number": 70,
+            "street": "Joy St",
+            "unit_number": 9,
+            "cross_street": null,
+            "latitude": 42.360619,
+            "longitude": -71.065139,
+            "neighborhoods": [
+                "Beacon Hill",
+                "Boston"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 2000,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Laundry in unit"
+            ],
+            "rental_terms": [
+                "First Month's Rent Required",
+                "Graduate Student Friendly",
+                "Heat Included",
+                "Hot Water Included",
+                "Last Month's Rent Required",
+                "Security Deposit Required",
+                "Student Friendly"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-08-26 13:35:40",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/14\/2045846.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/14\/2045847.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/149740"
+        },
+        {
+            "rentjuice_id": 149006,
+            "title": "Loft Duplex  - Full Service Luxury Building with affordable pricings",
+            "description": "Dorchester Lower Mills is one of Boston\u2019s historically rich neighborhoods. Located right on the Milton and Dorchester line, these renovated mill buildings now make up a once operating chocolate mill and represent a pre-eminent Dorchester landmark. \nToday, Dorchester Lower Mills is a thriving, hip community with an eye on the future. This neighborhood has undergone a renaissance and attractions abound. It is just steps from great shops, five-star restaurants, convenient public transportation (Red Line), bakeries, antique galleries, parks and more.",
+            "agent_name": "Rodney Scott",
+            "agent_email": "rscott@bradvisors.com",
+            "agent_phone": "617-678-6923",
+            "featured": 0,
+            "address": "1220 Adam St, Unit D",
+            "street_number": 1220,
+            "street": "Adam St",
+            "unit_number": "D",
+            "cross_street": null,
+            "latitude": 42.663714,
+            "longitude": -71.532787,
+            "neighborhoods": [
+                "Boston",
+                "Dorchester"
+            ],
+            "floor_number": null,
+            "property_type": "Apartment Complex",
+            "rent": 1850,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 860,
+            "features": [
+                "Central Air Conditioning",
+                "Central heat",
+                "Concierge",
+                "Dishwasher",
+                "Disposal",
+                "Doorman",
+                "Elevator",
+                "Gym\/athletic facilities",
+                "Hardwood floors",
+                "Laundry in building",
+                "Modern bathrooms",
+                "Refrigerator",
+                "Stainless steel appliances"
+            ],
+            "rental_terms": [
+                "Cats and Dogs Accepted",
+                "First Month's Rent Required",
+                "Graduate Student Friendly",
+                "Hot Water Included",
+                "Security Deposit Required"
+            ],
+            "date_available": "2010-08-01",
+            "last_updated": "2010-07-13 17:52:42",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033426.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033539.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033425.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033540.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033424.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033543.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033427.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033546.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033428.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033548.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033430.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033541.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033429.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033542.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033431.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/07\/13\/2033549.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/149006"
+        },
+        {
+            "rentjuice_id": 134882,
+            "title": "2BR on Tremont!- 1,000 S.F.!!!",
+            "description": "Garden level two bedroom on TREMONT ST.- \n* Approximately 1,000 Sq. Ft.\n* Two equal sized bedrooms\n* Parquet Floors\n* Exposed Brick\n* Large living room\n* Pets are Welcome\n* Five to Seven minute walk to Back Bay train station\n\nLarge two bedrooms in the South End aren't this cheap.\nCall now!",
+            "agent_name": "Bill Macgregor",
+            "agent_email": "bmacgregor@bradvisors.com",
+            "agent_phone": "617-850-9663",
+            "featured": 0,
+            "address": "593 Tremont St, Unit A",
+            "street_number": 593,
+            "street": "Tremont St",
+            "unit_number": "A",
+            "cross_street": null,
+            "latitude": 42.343295,
+            "longitude": -71.073233,
+            "neighborhoods": [
+                "Boston",
+                "South End"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 1800,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 1000,
+            "features": null,
+            "rental_terms": null,
+            "date_available": "1969-12-31",
+            "last_updated": "2010-07-14 14:51:19",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1632014.jpg",
+                    "sort_order": 1,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1632019.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1632008.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1632010.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1632023.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1632025.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1632016.jpg",
+                    "sort_order": 4,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/16\/1632017.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/134882"
+        },
+        {
+            "rentjuice_id": 133622,
+            "title": "Charming apartment, large private deck & fireplace, available 8\/1 (Beacon Hill)",
+            "description": "Charming two-bedroom apartment located on a quiet tree lined street in Beacon Hill. The apartment has a large private deck off of the master bedroom (bathroom is also off of main bedroom), a working fireplace in the living room, dishwasher and disposal in the kitchen, and a good sized storage space and free laundry in the basement. It is located within a 5 minutes walk of all train lines (orange, red, green and blue), Whole foods, MGH, the Public Gardens, Charles Street and the Boston Common.",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "36 Temple St, Unit 4",
+            "street_number": 36,
+            "street": "Temple St",
+            "unit_number": 4,
+            "cross_street": null,
+            "latitude": 42.3600214,
+            "longitude": -71.0635638,
+            "neighborhoods": [
+                "Beacon Hill",
+                "Boston"
+            ],
+            "floor_number": null,
+            "property_type": "Townhouse",
+            "rent": 0,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Hardwood floors",
+                "Laundry in building",
+                "Patio or deck"
+            ],
+            "rental_terms": [
+                "Heat Included",
+                "Hot Water Included"
+            ],
+            "date_available": "2010-08-01",
+            "last_updated": "2010-06-15 16:00:35",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/15\/1615591.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/15\/1615595.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/133622"
+        },
+        {
+            "rentjuice_id": 132998,
+            "title": "Great location: BU Main Campus area. Coolidge Corner, 3BR in a Brownstone building",
+            "description": "This unit is in the basement of a three-story building and contains 2 large bedrooms, 1 newer renovated full bathroom. BU Main Campus & Coolidge Corner, walk to C Line, & BU Gym, Supermarket, laundry in basement, hardwood floors, newer kitchen with dishwasher, microwave & disposal newer windows, mature residents wanted.  Professionally managed, call today!\nUtilities: water included, forced gas, heat not included in rent, tenants have thermostat & own boiler\nThe apartment will be professionally cleaned and painte.",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "94 Pleasant St, Unit A",
+            "street_number": 94,
+            "street": "Pleasant St",
+            "unit_number": "A",
+            "cross_street": null,
+            "latitude": 42.3455928,
+            "longitude": -71.1185159,
+            "neighborhoods": [
+                "Brookline"
+            ],
+            "floor_number": 1,
+            "property_type": "Brownstone",
+            "rent": 1600,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Hardwood floors",
+                "Microwave",
+                "Modern bathrooms",
+                "Updated\/renovated kitchen"
+            ],
+            "rental_terms": [
+                "First Month's Rent Required",
+                "Hot Water Included",
+                "Last Month's Rent Required"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-06-14 13:36:13",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/14\/1596256.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/14\/1596350.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/14\/1596257.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/14\/1596351.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/14\/1596258.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/14\/1596352.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/132998"
+        },
+        {
+            "rentjuice_id": 131523,
+            "title": "2 BR in East Boston",
+            "description": null,
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "247 Bennington St, Unit 3",
+            "street_number": 247,
+            "street": "Bennington St",
+            "unit_number": 3,
+            "cross_street": null,
+            "latitude": 42.376608,
+            "longitude": -71.0340694,
+            "neighborhoods": [
+                "Boston",
+                "East Boston"
+            ],
+            "floor_number": null,
+            "property_type": "Condominium",
+            "rent": 1025,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": null,
+            "rental_terms": [
+                "First Month's Rent Required",
+                "Last Month's Rent Required",
+                "Security Deposit Required",
+                "Student Friendly"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-07-13 13:23:10",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/11\/1559040.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/11\/1559042.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/131523"
+        },
+        {
+            "rentjuice_id": 131507,
+            "title": null,
+            "description": "2 Bedroom unit with wall to wall carpet. Basement level, laundry in bldg, Office on site, full size appliances, close to MBTA Green line, Longwood Medical, NU, Mass Art. Cat ok.",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "49 Worthington St, Unit B4",
+            "street_number": 49,
+            "street": "Worthington St",
+            "unit_number": "B4",
+            "cross_street": null,
+            "latitude": 42.3349,
+            "longitude": -71.1015,
+            "neighborhoods": [
+                "Boston",
+                "Mission Hill"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 1399,
+            "fee": 3,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Carpet",
+                "Laundry in building",
+                "Refrigerator",
+                "Stove"
+            ],
+            "rental_terms": [
+                "Cats Accepted",
+                "Heat Included",
+                "Hot Water Included"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-08-06 12:27:01",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/11\/1558696.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/11\/1558713.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/131507"
+        },
+        {
+            "rentjuice_id": 130960,
+            "title": null,
+            "description": "This unit will be 100% renovated and turned into a 2 bedroom, great for roommates. All new hardwood floors, granite countertops, new kitchen!",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "43 Hemenway St, Unit 4",
+            "street_number": 43,
+            "street": "Hemenway St",
+            "unit_number": 4,
+            "cross_street": null,
+            "latitude": 42.3454,
+            "longitude": -71.0896999,
+            "neighborhoods": [
+                "Back Bay",
+                "Boston",
+                "Fenway",
+                "Symphony"
+            ],
+            "floor_number": null,
+            "property_type": null,
+            "rent": 1850,
+            "fee": 0,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": null,
+            "features": [
+                "Decorative fireplace",
+                "Granite countertops",
+                "Hardwood floors",
+                "Laundry in building",
+                "Modern bathrooms",
+                "Updated\/renovated kitchen"
+            ],
+            "rental_terms": [
+                "First Month's Rent Required",
+                "Heat Included",
+                "Hot Water Included",
+                "Last Month's Rent Required",
+                "Security Deposit Required"
+            ],
+            "date_available": "2010-09-01",
+            "last_updated": "2010-06-23 16:37:05",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/10\/1540103.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/06\/10\/1540104.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/130960"
+        },
+        {
+            "rentjuice_id": 96136,
+            "title": "Beautiful 2BR in the North End",
+            "description": "Hard wood floors, washer and dryer in the unit, common roof deck, central A\/C.",
+            "agent_name": "Lucie Monroe",
+            "agent_email": "lmonroe@bradvisors.com",
+            "agent_phone": null,
+            "featured": 0,
+            "address": "5 Wiget St, Unit 1",
+            "street_number": 5,
+            "street": "Wiget St",
+            "unit_number": 1,
+            "cross_street": null,
+            "latitude": 42.364,
+            "longitude": -71.0559,
+            "neighborhoods": [
+                "North End"
+            ],
+            "floor_number": null,
+            "property_type": "Brownstone",
+            "rent": 1800,
+            "fee": 1,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 575,
+            "features": [
+                "Central Air Conditioning",
+                "Dishwasher",
+                "Hardwood floors",
+                "Roof deck",
+                "Washer\/dryer in unit"
+            ],
+            "rental_terms": null,
+            "date_available": "2010-10-01",
+            "last_updated": "2010-08-26 13:45:27",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/05\/17\/974467.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/05\/17\/974469.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/96136"
+        }
+    ],
+    "runtime": 2.32013
+}

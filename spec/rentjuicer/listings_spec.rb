@@ -76,12 +76,19 @@ describe Rentjuicer::Listing do
     before do
       @find_ids = [
         200306, 200221, 200214, 200121, 199646, 198560, 197542, 197540, 197538, 196165, 
-        196149, 195626, 195613, 195592, 195583, 195582, 195562, 194330, 193565, 190074
+        196149, 195626, 195613, 195592, 195583, 195582, 195562, 194330, 193565, 190074, 
+        97694, 38101
       ]
       mock_get('/listings.json', 'find_all_by_ids.json', {
         :rentjuice_id => @find_ids.join(','),
         :order_by => "rent",
         :order_direction => "asc"
+      })
+      mock_get('/listings.json', 'find_all_by_ids_2.json', {
+        :rentjuice_id => @find_ids.join(','),
+        :order_by => "rent",
+        :order_direction => "asc",
+        :page => "2"
       })
       @properties = @listings.find_all_by_ids(@find_ids.join(','))
     end
@@ -89,10 +96,29 @@ describe Rentjuicer::Listing do
     it { @properties.should be_kind_of(Array) }
     
     it "should only return properties for requested ids" do
-      @properties.each do |property|
-        @find_ids.should include(property.rentjuice_id)
+      @property_ids = @properties.collect{|p| p.rentjuice_id}
+      @find_ids.each do |id|
+        @property_ids.should include(id)
       end
     end
+  end
+  
+  context "find_all" do
+    before do
+      search_params = {
+        :neighborhoods => "Fenway",
+        :max_rent => "2000",
+        :min_beds => "2"
+      }
+      mock_parms = search_params.merge!(:order_by => "rent", :order_direction => "asc")
+      mock_get('/listings.json', 'find_all_1.json', mock_parms)
+      mock_get('/listings.json', 'find_all_2.json', mock_parms.merge!(:page => "2"))
+      mock_get('/listings.json', 'find_all_3.json', mock_parms.merge!(:page => "3"))
+      @properties = @listings.find_all(search_params)
+    end
+    
+    it { @properties.should be_kind_of(Array)}
+    
   end
   
 end

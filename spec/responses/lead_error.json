@@ -1,1 +1,6 @@
-{"status":"error","code":3,"message":"invalid parameter - `name` is required","runtime":0.036}
+{
+    "status": "error",
+    "code": 3,
+    "message": "invalid parameter - `name` is required",
+    "runtime": 0.036
+}
