@@ -9,7 +9,7 @@ module Rentjuicer
     end
     
     def find_by_id(listing_id)
-      SearchResponse.new(self.client.class.get(resource, :query => {:rentjuice_id => listing_id}), 20)
+      SearchResponse.new(self.client.class.get(resource, :query => {:rentjuice_id => listing_id}))
     end
     
     def search(params = {})
@@ -48,7 +48,7 @@ module Rentjuicer
       all_listings = []
       listing_ids.split(',').in_groups_of(500).each do |group|
         group.delete_if{|x| x.nil?}
-        all_listings << find_all(:rentjuice_id => group.join(","))
+        all_listings << find_all(:rentjuice_id => group.join(','))
       end
       all_listings.flatten
     end
