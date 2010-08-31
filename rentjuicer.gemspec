@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rentjuicer}
-  s.version = "0.2.1"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["tcocca"]
@@ -52,6 +52,7 @@ Gem::Specification.new do |s|
      "spec/responses/lead_error.json",
      "spec/responses/listings.json",
      "spec/responses/neighborhoods.json",
+     "spec/responses/no_listings.json",
      "spec/spec.opts",
      "spec/spec_helper.rb",
      "spec/support/listing_helper.rb",
@@ -81,23 +82,23 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<httparty>, [">= 0.6.1"])
-      s.add_runtime_dependency(%q<hashie>, [">= 0.3.1"])
-      s.add_runtime_dependency(%q<rash>, [">= 0.1.1"])
+      s.add_runtime_dependency(%q<hashie>, [">= 0.4.0"])
+      s.add_runtime_dependency(%q<rash>, [">= 0.2.0"])
       s.add_runtime_dependency(%q<will_paginate>, [">= 2.3.4"])
       s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_development_dependency(%q<webmock>, [">= 1.3.4"])
     else
       s.add_dependency(%q<httparty>, [">= 0.6.1"])
-      s.add_dependency(%q<hashie>, [">= 0.3.1"])
-      s.add_dependency(%q<rash>, [">= 0.1.1"])
+      s.add_dependency(%q<hashie>, [">= 0.4.0"])
+      s.add_dependency(%q<rash>, [">= 0.2.0"])
       s.add_dependency(%q<will_paginate>, [">= 2.3.4"])
       s.add_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_dependency(%q<webmock>, [">= 1.3.4"])
     end
   else
     s.add_dependency(%q<httparty>, [">= 0.6.1"])
-    s.add_dependency(%q<hashie>, [">= 0.3.1"])
-    s.add_dependency(%q<rash>, [">= 0.1.1"])
+    s.add_dependency(%q<hashie>, [">= 0.4.0"])
+    s.add_dependency(%q<rash>, [">= 0.2.0"])
     s.add_dependency(%q<will_paginate>, [">= 2.3.4"])
     s.add_dependency(%q<rspec>, [">= 1.2.9"])
     s.add_dependency(%q<webmock>, [">= 1.3.4"])
