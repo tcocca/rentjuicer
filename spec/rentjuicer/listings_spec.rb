@@ -43,15 +43,21 @@ describe Rentjuicer::Listing do
       mock_get('/listings.json', 'find_by_id.json', {
         :rentjuice_id => "200306"
       })
-      @result = @listings.find_by_id(200306)
+      @listing = @listings.find_by_id(200306)
     end
     
-    it { @result.should be_kind_of(Rentjuicer::Listings::SearchResponse) }
-    it { @result.success?.should be_true }
-    
-    it "should return no more than 1 response" do
-      @result.properties.should have_at_most(1).listings
+    it { @listing.should be_kind_of(Rentjuicer::Listing) }
+  end
+  
+  context "find_by_id missing" do
+    before do
+      mock_get('/listings.json', 'no_listings.json', {
+        :rentjuice_id => "1"
+      })
+      @listing = @listings.find_by_id(1)
     end
+    
+    it { @listing.should be_nil }
   end
   
   context "featured" do

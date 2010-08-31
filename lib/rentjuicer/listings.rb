@@ -8,10 +8,6 @@ module Rentjuicer
       self.resource = "/listings.json"
     end
     
-    def find_by_id(listing_id)
-      SearchResponse.new(self.client.class.get(resource, :query => {:rentjuice_id => listing_id}))
-    end
-    
     def search(params = {})
       limit = params[:limit] || 20
       params[:order_by] ||= "rent"
@@ -22,6 +18,11 @@ module Rentjuicer
     def featured(params = {})
       params.merge!(:featured => 1)
       search(params)
+    end
+    
+    def find_by_id(listing_id)
+      response = SearchResponse.new(self.client.class.get(resource, :query => {:rentjuice_id => listing_id}))
+      (response.success? && response.properties.size > 0) ? response.properties.first : nil
     end
     
     def find_all(params = {})
