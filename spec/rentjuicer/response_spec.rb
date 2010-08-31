@@ -48,4 +48,26 @@ describe Rentjuicer::Response do
     end
   end
   
+  context "method missing" do
+    before do
+      @rentjuicer = new_rentjuicer
+      @listings = Rentjuicer::Listings.new(@rentjuicer)
+      mock_get('/listings.json', 'listings.json', {
+        :neighborhoods => "South Boston",
+        :order_by => "rent",
+        :order_direction => "asc"
+      })
+      @results = @listings.search(:neighborhoods => "South Boston")
+    end
+    
+    it "should allow response.body methods to be called on response" do
+      @results.stub_chain(:body, :page).and_return(1)
+      @results.page.should == 1
+    end
+
+    it "should call super if body does not response to the method" do
+      lambda { @results.bad_method }.should raise_error(NoMethodError, /undefined method `bad_method'/)
+    end
+  end
+  
 end

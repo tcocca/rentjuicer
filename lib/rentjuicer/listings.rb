@@ -64,9 +64,9 @@ module Rentjuicer
       end
       
       def properties
-        return [] if @body.listings.blank?
+        return [] if self.body.listings.blank?
         props = []
-        @body.listings.each do |listing|
+        self.body.listings.each do |listing|
           props << Rentjuicer::Listing.new(listing)
         end
         props
@@ -75,9 +75,9 @@ module Rentjuicer
       def paginator
         paginator_cache if paginator_cache
         self.paginator_cache = WillPaginate::Collection.create(
-          @body.page, 
+          self.body.page, 
           @limit, 
-          (@body.total_count ? @body.total_count : properties.size)) do |pager|
+          (self.body.total_count ? self.body.total_count : properties.size)) do |pager|
           pager.replace properties
         end
       end
