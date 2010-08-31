@@ -61,8 +61,9 @@ describe Rentjuicer::Response do
     end
     
     it "should allow response.body methods to be called on response" do
-      @results.stub_chain(:body, :page).and_return(1)
-      @results.page.should == 1
+      body = stub(:total_count => 25)
+      @results.body = body
+      @results.total_count.should == 25
     end
 
     it "should call super if body does not response to the method" do
