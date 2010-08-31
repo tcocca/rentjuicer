@@ -11,12 +11,12 @@ module Rentjuicer
     def similar_listings(rj, limit = 6)
       search_params = {
         :limit => limit + 1,
-        :min_rent => self.rent * 0.9,
-        :max_rent => self.rent * 1.1,
-        :min_beds => if (self.bedrooms - 1) <= 0 then 0 else (self.bedrooms - 1) end,
-        :max_beds => self.bedrooms + 1,
-        :min_baths => if (self.bathrooms - 1) <= 0 then 0 else (self.bathrooms - 1) end,
-        :max_baths => self.bathrooms + 1,
+        :min_rent => self.rent.to_i * 0.9,
+        :max_rent => self.rent.to_i * 1.1,
+        :min_beds => ((self.bedrooms.to_i - 1) <= 0 ? 0 : (self.bedrooms.to_i - 1)),
+        :max_beds => self.bedrooms.to_i + 1,
+        :min_baths => ((self.bathrooms.to_i - 1) <= 0 ? 0 : (self.bathrooms.to_i - 1)),
+        :max_baths => self.bathrooms.to_i + 1,
         :neighborhoods => self.neighborhood_name
       }
 
@@ -46,7 +46,7 @@ module Rentjuicer
     end
 
     def sorted_photos
-      @sorted_pictures ||= self.photos.sort_by{|photo| photo[:sort_order]} if photos
+      @sorted_pictures ||= self.photos.sort_by{|photo| photo[:sort_order].to_i} if photos
     end
 
     def neighborhood_name
