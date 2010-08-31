@@ -1,6 +1,177 @@
 = rentjuicer
 
-Description goes here.
+Rentjuicer is a ruby gem that wraps the rentjucier.com api for listings, neighborhoods and adding leads.  Rentjuicer is built on top of HTTParty.
+
+Rentjuicer requires access to rentjuice.com's api through an Rentjuice api key so make sure you have acquired a key from Rentjuice before starting with this gem.
+
+API documentation is here: http://api.rentjuice.com/documentation/RentJuice_API.pdf
+
+
+== Installation
+
+  gem install rentjuicer
+
+In a rails 2.3.x app
+
+  config.gem 'rentjuicer'
+
+
+== Usage
+
+Responses from the api come back as Hashie::Rash objects, each response will be described below
+
+For documentation on Hashie::Rash see the following:  http://github.com/tcocca/rash
+
+Basically HTTParty parses the JSON response into a hash, which is then converted into a Hashie::Rash.  This takes all hash keys and converts camelCased keys to underscored keys (eg:  'camelCase' => 'camel_case') and then makes those keys accessble as methods.
+
+So all responses create a :body method to access the data:
+
+  @results.body.neighbhoroods # => array of Hashie::Rash objects
+
+Look at the JSON being returned and all of those keys are accessible as methods on the :body method for your Rentjuicer::Response method.
+
+Rentjuicer::Response also implements some method_missing so any methods on response.body can be accessed directly on response, eg:
+
+  @results.neighborhoods == @results.body.neighborhoods
+
+In the rest of the README I will be accessing the methods off of response as I think it is cleaner to use and read.
+
+
+=== Creating a Rentjuicer Client
+
+A rentjuicer client is necessary as this is the object that makes requests, each of classes that interacts with the api requires a rentjuicer client to be passed in to the new call.
+
+  @rentjuicer = Rentjuicer::Client.new('some_api_key')
+
+
+=== Getting a list of your neighborhoods
+
+To get a list of your neighborhoods in rentjuice you can access the neighborhoods resource and call find_all
+
+  @neighborhoods = Rentjuicer::Neighborhoods.new(@rentjuicer) # where @rentjuicer is the client created above
+  @response = @neighborhoods.find_all # returns a Rentjuicer::Response object
+  
+  @response.neighborhoods contains an array of Rentjuice neighborhood objects in Hashie::Rash format
+
+if the request is invalid a Rentjuicer::Error exception will be raised
+
+
+=== Adding a lead to your account
+
+To add a lead to your Rentjuice lead management system there are two methods, create and create!
+create will not raise an error but the response will not be successful if there is an error.
+create! will raise a Rentjuicer::Error if there is an error.
+
+  @lead = Rentjuicer::Lead.new(@rentjuicer)
+  @result = @lead.create('John Smith')
+  @result.success? # => true
+
+  @result = @lead.create!('John Smith') # raises an error if the create fails
+
+create and create! take a mandatory "name" paramater and also take an optional hash of parameters as specified in the API documentation.  All optional params are passed straight through to the api so keys and values should be passed in exactly as the documentation states.
+
+
+=== Searching for listings
+
+There are 5 methods to the Rentjuicer::Listings class in two "groups"
+
+==== The first group will return Rentjuicer::Listings::SearchResponse responses
+
+  :search - searches for listings based on the params passed in, if no params are passed in it will return all properties
+  :featured - same as search above (takes a params hash) but merges in the :featured => 1 param so that it will only return featured listings
+
+Search and Featured default to 20 listings per page of the request
+
+These methods all return a Rentjuicer::Listings::SearchResults response
+
+  @listings = Rentjuicer::Listings.new(@rentjuicer)
+  @results = @listings.search(:neighborhoods => 'Boston') # => all listings in Boston
+  @results = @listings.featured(:max_rent => '2000') # => all featured listings under 2000
+  @results = @listings.find_by_id(18330) # => returns listing 18330 as the only property in @results.properties if that property is found
+
+==== Rentjuicer::Listings::SearchResponse
+
+inherits from Rentjuicer::Response so @results.body will return a Hashie::Rash of the json that is returned from the api call
+
+method_missing applies here as well so any methods on @results.body can be called on @results
+
+It also adds 2 methods
+
+  :properties - this method returns an array of Rentjuicer::Listing objects (see below)
+  :paginator - returns a WillPaginate::Collection object created from the response where the pager cycles the :properties array
+
+  @results.properties # => an array of Rentjuicer::Listing objects
+  @results.paginator.total_entries # => total number of properties
+  @results.paginator # => the @results.properties objects
+
+==== Rentjuicer::Listing
+
+Rentjuicer::Listing creates an object from a hash (or in our case our Hashie::Rash object) by converting the hash keys to instance variables who's value is the key's value from the hash, then it creates methods that return those instance variables.
+
+@results.properties is just an array of these Rentjuicer::Listing objects that are converted from @results.listings
+
+so @results.listings.first.neighborhoods == @results.properties.first.neighborhoods
+
+Where this comes in handy though is that now that it is a class, we can extend it to add more methods which is exactly what we have done
+
+a Rentjuicer::Listing object responds to the following methods:
+
+  :id - returns the rentjuice_id for convenience
+  :sorted_photos - returns the self.photos sorted by the :sort_order key passed back through the api
+  :main_pic - this is not always the first photo in the sorted list, in fact there is a specific key in the photo hash to designate the main photo, so main_pic returns the photo object that is designated
+  :thumb_pic - returns the url for the main_pic thumbnail
+  :first_pic - returns the url for the main_pic fullsize photo
+  :neighborhood_name - returns the first name in the neighborhoods hash
+  
+Also, we have added another method :similar_listings which takes a Rentjuicer::Client object and does a search call
+
+  @results.properties.first.similar_listings(@rentjuicer)
+
+This method performs a search and returns an array for Rentjuicer::Listing objects based on the following criteria
+
+  :min_rent => self.rent.to_i * 0.9,
+  :max_rent => self.rent.to_i * 1.1,
+  :min_beds => ((self.bedrooms.to_i - 1) <= 0 ? 0 : (self.bedrooms.to_i - 1)),
+  :max_beds => self.bedrooms.to_i + 1,
+  :min_baths => ((self.bathrooms.to_i - 1) <= 0 ? 0 : (self.bathrooms.to_i - 1)),
+  :max_baths => self.bathrooms.to_i + 1,
+  :neighborhoods => self.neighborhood_name
+
+You can also pass a limit to the similar_listings method, the default is 6 properties (max) returned
+
+  @results.properties.first.similar_listings(@rentjuicer, 10) # returns max 10 similar listings
+
+===== Extending Rentjuicer::Listing
+Another benefit to this Rentjuicer::Listing class is that in your app you can open the class again and add more methods if you wish.  For example create a file:  RAILS_ROOT/lib/rentjuicer_extensions.rb with the following:
+
+  module Rentjuicer
+    class Listing
+      
+      def neighborhood_list
+        self.neighborhoods.join(', ')
+      end
+    end
+  end
+
+and add require 'rentjuicer_extensions' to your config/environment.rb file.
+
+Now you can call @results.properties.first.neighborhood_list to get a nice comma separated list of neighborhood names.
+This class allows you to create any methods you want on a listing.
+
+=== The second group returns Rentjuicer::Listing responses
+
+  :find_by_id - takes a rentjuice_id for a listing and returns a Rentjuicer::Listing if the property is found or nil if it is not found
+  @property = @listings.find_by_id(18830) # returns either nil or a Rentjuicer::Listing
+
+These methods just return a Rentjuicer::Listing or an array of Rentjuicer::Listing objects.
+These methods work by making subsequent calls to go through the pagination of the results for you and compaction each request into a single array.  Use these methods only when absolutely necessary as they are expensive to use as they will make repeated api calls through the entire set of pages, so if there are 20 listings per page and 571 pages, this will make 29 api requests which is obviously quite time consuming.
+
+  :find_all - take a hash of search params (same as :search above) and returns every result on every page of the response in an array 
+  :find_all_by_ids - takes a comma separated string of rentjuice_ids and returns every listing in an array
+  
+  @results = @listings.find_all(:neighborhoods => 'Boston') # returns an array of every listing in Boston in a single array - no need for pagination
+  @results = @listings.find_all_by_ids('200306,200221,200214,200121,199646,198560,197542,197540,197538) # returns an array of all of those listings that can be found
+
 
 == Note on Patches/Pull Requests
  

@@ -11,8 +11,8 @@ begin
     gem.homepage = "http://github.com/tcocca/rentjuicer"
     gem.authors = ["tcocca"]
     gem.add_dependency "httparty", ">= 0.6.1"
-    gem.add_dependency "hashie", ">= 0.3.1"
-    gem.add_dependency "rash", ">= 0.1.1"
+    gem.add_dependency "hashie", ">= 0.4.0"
+    gem.add_dependency "rash", ">= 0.2.0"
     gem.add_dependency "will_paginate", ">= 2.3.4"
     gem.add_development_dependency "rspec", ">= 1.2.9"
     gem.add_development_dependency "webmock", ">= 1.3.4"
