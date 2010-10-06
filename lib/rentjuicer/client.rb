@@ -8,7 +8,7 @@ module Rentjuicer
     
     def initialize(api_key)
       self.api_key = api_key
-      self.class.base_uri "app.rentjuice.com/api/#{self.api_key}"
+      self.class.base_uri "api.rentjuice.com/#{self.api_key}"
     end
     
   end
