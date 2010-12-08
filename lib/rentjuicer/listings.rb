@@ -46,8 +46,9 @@ module Rentjuicer
     end
     
     def find_all_by_ids(listing_ids)
+      listing_ids = listing_ids.split(',') if listing_ids.is_a?(String)
       all_listings = []
-      listing_ids.split(',').in_groups_of(500).each do |group|
+      listing_ids.in_groups_of(500, false).each do |group|
         group.delete_if{|x| x.nil?}
         all_listings << find_all(:rentjuice_id => group.join(','))
       end
@@ -70,6 +71,14 @@ module Rentjuicer
           props << Rentjuicer::Listing.new(listing)
         end
         props
+      end
+      
+      def mls_results?
+        properties.any?{|property| property.mls_listing?}
+      end
+      
+      def mls_disclaimers
+        properties.collect{|property| property.mls_disclaimer}.compact.uniq
       end
       
       def paginator

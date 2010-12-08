@@ -1,0 +1,1719 @@
+{
+    "status": "ok",
+    "page": 1,
+    "count": 20,
+    "total_count": 1333,
+    "listings": [
+        {
+            "rentjuice_id": 312644,
+            "title": null,
+            "description": "Large elegantly designed duplex with private terrace upstairs and private garden downstairs. 1BR\/1.5 Bath. Upstairs includes kitchen, dining room, living room, and half bathroom. The downstairs features bedroom with private garden access, full bathroom, plenty of storage and closet space. Close proximity to Newbury Street and Charles River; very short walk to public transportation (Green Line T and bus). Private parking spot available in public alley directly behind building. Laundry in building",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "327 Commonwealth Ave, Unit 0",
+            "street_number": 327,
+            "street": "Commonwealth Ave",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02115",
+            "unit_number": 0,
+            "cross_street": null,
+            "latitude": 42.3497149,
+            "longitude": -71.0870721,
+            "neighborhoods": [
+                "Back Bay",
+                "Boston"
+            ],
+            "floor_number": 1,
+            "property_type": "Condominium",
+            "rent": 2500,
+            "fee": null,
+            "bedrooms": 1,
+            "bathrooms": 1.5,
+            "square_footage": 1200,
+            "features": [
+                null
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-11-01",
+            "last_updated": "2010-12-08 03:54:37",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Allen Garzone at Sun Property Group<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338974.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338975.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338959.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338956.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338953.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338952.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338950.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338947.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338944.jpg",
+                    "sort_order": 4,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338942.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338943.jpg",
+                    "sort_order": 5,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338937.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338932.jpg",
+                    "sort_order": 6,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338934.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312644"
+        },
+        {
+            "rentjuice_id": 312628,
+            "title": null,
+            "description": "Sunny, X-LARGE, 2-3 br unit boasts a living room with working fireplace, formal dining room, that could easily be used as lg.3-rd br, modern eat-in-kitchen. High ceilings. Balcony. Beautiful hardwood floors. Marble baths. Washer\/dryer IN UNIT. Tons of closet space + Large storage area. HEAT AND 2 GARAGE pkg INCLUDED IN RENT.Great neighborhood! Close to stores, T,restaurants, schools, playgrounds. Walk to Coolidge Corner, take bus to Cambridge. Close proximity to Longwood medical. Pets allowed!",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "81 Harvard Ave, Unit 81",
+            "street_number": 81,
+            "street": "Harvard Ave",
+            "city": "Brookline",
+            "state": "MA",
+            "zip_code": "02446",
+            "unit_number": 81,
+            "cross_street": null,
+            "latitude": 42.3372081,
+            "longitude": -71.1248991,
+            "neighborhoods": [
+                "Brookline"
+            ],
+            "floor_number": 2,
+            "property_type": "Condominium",
+            "rent": 3655,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 1.5,
+            "square_footage": 1620,
+            "features": [
+                "Balcony",
+                "Dishwasher",
+                "Disposal",
+                "Microwave",
+                "Refrigerator"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": null,
+            "last_updated": "2010-12-08 03:50:44",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Susanna Zaks at Ace Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338593.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338595.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338588.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338594.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338592.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338591.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338585.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338577.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338583.jpg",
+                    "sort_order": 4,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338581.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338569.jpg",
+                    "sort_order": 5,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338575.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338562.jpg",
+                    "sort_order": 6,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338572.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338561.jpg",
+                    "sort_order": 7,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338567.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338558.jpg",
+                    "sort_order": 8,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338553.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338551.jpg",
+                    "sort_order": 9,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338556.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312628"
+        },
+        {
+            "rentjuice_id": 312617,
+            "title": null,
+            "description": "Rarely Available One Bedroom at The Boylston! This bright and very spacious front-facing apartment is located steps from the Back Bay, Fenway Park, Berklee College and the T. Unit features beautiful hardwood floors, ceiling fans, many windows and a fully applianced eat-in kitchen with tile floor. Foyer has an oversized entry closet for extra storage. Tile bath with tub is off the bedroom. Professionally managed, elevator building with laundry in the basement. Rent includes heat and hot water.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "1091 Boylston St, Unit 31",
+            "street_number": 1091,
+            "street": "Boylston St",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02215",
+            "unit_number": 31,
+            "cross_street": null,
+            "latitude": 42.3470936,
+            "longitude": -71.0891387,
+            "neighborhoods": [
+                "Boston",
+                "Fenway"
+            ],
+            "floor_number": 3,
+            "property_type": "Condominium",
+            "rent": 1750,
+            "fee": null,
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "square_footage": 628,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Refrigerator"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2011-01-01",
+            "last_updated": "2010-12-08 03:47:05",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Elizabeth Capone at Virtual Homes, Inc.<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338237.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338239.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338231.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338233.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338222.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338229.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338225.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338230.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338219.jpg",
+                    "sort_order": 4,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338217.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338214.jpg",
+                    "sort_order": 5,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338212.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338207.jpg",
+                    "sort_order": 6,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338202.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338203.jpg",
+                    "sort_order": 7,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338210.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312617"
+        },
+        {
+            "rentjuice_id": 312613,
+            "title": null,
+            "description": "Home features a complet renovation with southern exposure, jacuzzi tub, marble and granite in both kitchen and bath, washer\/dryer on site, additional deeded storage, heat and hot water included in the rent, flat screen TV, duplex layout, ample storage.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "75 Burbank St, Unit 102",
+            "street_number": 75,
+            "street": "Burbank St",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02115",
+            "unit_number": 102,
+            "cross_street": null,
+            "latitude": null,
+            "longitude": null,
+            "neighborhoods": [
+                "Boston"
+            ],
+            "floor_number": 1,
+            "property_type": "Condominium",
+            "rent": 1750,
+            "fee": null,
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "square_footage": 650,
+            "features": [
+                "Dishwasher",
+                "Refrigerator"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2011-01-01",
+            "last_updated": "2010-12-08 03:46:29",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Davant Scarborough at The Charles Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338130.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338126.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338125.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338123.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338122.jpg",
+                    "sort_order": 2,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338119.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312613"
+        },
+        {
+            "rentjuice_id": 312612,
+            "title": null,
+            "description": "This newly renovated Brick & Beam residence is located at the prestigious Union Wharf. The spacious home includes an entrance foyer, dramatic brick walls, living room with wood-burning fire place, updated kitchen, private balcony, hardwood floors, 2 bedrooms and 2 brand new bathrooms. Parking, washer and dryer are all included.  On-site management and steps to the North End, Downtown Boston & all major transportation.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "343 Commercial St, Unit 405",
+            "street_number": 343,
+            "street": "Commercial St",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02109",
+            "unit_number": 405,
+            "cross_street": null,
+            "latitude": 42.3659008,
+            "longitude": -71.0511963,
+            "neighborhoods": [
+                "Boston",
+                "Waterfront"
+            ],
+            "floor_number": 4,
+            "property_type": "Condominium",
+            "rent": 4500,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "square_footage": 1400,
+            "features": [
+                "Balcony",
+                "Disposal",
+                "Pool",
+                "Tennis court"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-12-15",
+            "last_updated": "2010-12-08 03:46:26",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Carmela Laurella at Cl Waterfront Properties<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338106.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338110.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338109.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338107.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338103.jpg",
+                    "sort_order": 2,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5338102.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312612"
+        },
+        {
+            "rentjuice_id": 312607,
+            "title": null,
+            "description": "Amazing 1240 square feet two bedroom, two baths unit at Lincoln Wharf features a large floor plan with a wide-open living\/dining area with bright and sunny southern exposure, hardwood floors throughout and incredible amount of storage. Lincoln Wharf was formerly the MBTA power station; this historic brick building was built in 1907 and converted to condominiums in 1987. There are 192 units in this building which has 24-hr. concierge and a health club. washer dryer on each floor...lots of storage",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "357 Commercial St, Unit 416",
+            "street_number": 357,
+            "street": "Commercial St",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02109",
+            "unit_number": 416,
+            "cross_street": null,
+            "latitude": null,
+            "longitude": null,
+            "neighborhoods": [
+                "Boston",
+                "Waterfront"
+            ],
+            "floor_number": 4,
+            "property_type": "Condominium",
+            "rent": 2500,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "square_footage": 1240,
+            "features": [
+                "Dishwasher",
+                "Elevator",
+                "Refrigerator"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2011-01-01",
+            "last_updated": "2010-12-08 03:44:34",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Ruth Ann Bowers And George Jedli at Coldwell Banker Residential Brokerage - Boston - Newbury St.<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5337988.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5337987.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312607"
+        },
+        {
+            "rentjuice_id": 312543,
+            "title": null,
+            "description": "Brand new unit gut rehab brand new SS\/granite Kitchen marble\/tile bathrooms in unit washer & dryer on Dean Park Devotion School on Dean Park Parking A\/C",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "1803 Beacon St, Unit 1",
+            "street_number": 1803,
+            "street": "Beacon St",
+            "city": "Brookline",
+            "state": "MA",
+            "zip_code": "02445",
+            "unit_number": 1,
+            "cross_street": null,
+            "latitude": 42.3372172,
+            "longitude": -71.1440185,
+            "neighborhoods": [
+                "Brookline"
+            ],
+            "floor_number": null,
+            "property_type": "Apartment Building",
+            "rent": 2750,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "square_footage": 1700,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Microwave",
+                "Refrigerator"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-12-06",
+            "last_updated": "2010-12-08 03:26:20",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Holly Kampler at Classic Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5336302.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5336305.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5336294.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5336295.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5336296.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5336299.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5336276.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5336278.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5336283.jpg",
+                    "sort_order": 4,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5336287.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312543"
+        },
+        {
+            "rentjuice_id": 312530,
+            "title": null,
+            "description": "Fantastic loc. modern condo building on Mass Ave with balcony, view, woodfloor, dishwasher, laundry on same floor, one deeded pkg, wood fireplace, brand new renovated bathrooms, steps to Harvard Law, Harvard Sq, Porter Sq and redline.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "1580 Massachusetts Ave, Unit 7",
+            "street_number": 1580,
+            "street": "Massachusetts Ave",
+            "city": "Cambridge",
+            "state": "MA",
+            "zip_code": "02138",
+            "unit_number": 7,
+            "cross_street": null,
+            "latitude": 42.379149,
+            "longitude": -71.120279,
+            "neighborhoods": [
+                "Cambridge",
+                "Harvard Square"
+            ],
+            "floor_number": 7,
+            "property_type": "Condominium",
+            "rent": 2100,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "square_footage": 0,
+            "features": [
+                "Balcony",
+                "Dishwasher",
+                "Disposal",
+                "Refrigerator"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-12-07",
+            "last_updated": "2010-12-08 03:24:20",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Mohammad Nooronzi at Bayside Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335819.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335817.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335814.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335816.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335804.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335797.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335800.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335810.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335792.jpg",
+                    "sort_order": 4,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335799.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335794.jpg",
+                    "sort_order": 5,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335806.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335788.jpg",
+                    "sort_order": 6,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335781.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335784.jpg",
+                    "sort_order": 7,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335782.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312530"
+        },
+        {
+            "rentjuice_id": 312524,
+            "title": null,
+            "description": "Four levels Townhouse style home, available immediately, furnished or unfurnished, short or long term, only 6 years old, heated two car garage, hardwood floors, gas fireplace, security system, granite counter tops, abundant closet space, washer and dryer, central vacuum, roof deck and private yard. Rent furnished for $5500 with everything included.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "100 Vernon St, Unit 2",
+            "street_number": 100,
+            "street": "Vernon St",
+            "city": "Somerville",
+            "state": "MA",
+            "zip_code": "02145",
+            "unit_number": 2,
+            "cross_street": null,
+            "latitude": null,
+            "longitude": null,
+            "neighborhoods": [
+                "Somerville"
+            ],
+            "floor_number": 2,
+            "property_type": "Condominium",
+            "rent": 3500,
+            "fee": null,
+            "bedrooms": 3,
+            "bathrooms": 2.5,
+            "square_footage": 2600,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Roof deck",
+                "Yard"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-12-08",
+            "last_updated": "2010-12-08 03:23:16",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Vilma Dassoni at Downtown Boston Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335680.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335679.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335672.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335675.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335662.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335668.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335661.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335669.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335660.jpg",
+                    "sort_order": 4,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335657.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335649.jpg",
+                    "sort_order": 5,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335651.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335653.jpg",
+                    "sort_order": 6,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335655.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335644.jpg",
+                    "sort_order": 7,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335643.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312524"
+        },
+        {
+            "rentjuice_id": 312513,
+            "title": null,
+            "description": "Be the first to live in this fully renovated 1.5 bedroom for $2,475. including heat & hot water available January 1. Featuring a large eat in kitchen, in-unit washer & dryer, dishwasher, spacious living room, pet friendly, and hardwood flooring. Only first months rent & realtor fee due at lease signing. One month brokerage fee paid by tenant and split by listing and renting agents. 5th floor walk-up.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "7 Anderson St, Unit 9",
+            "street_number": 7,
+            "street": "Anderson St",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02114",
+            "unit_number": 9,
+            "cross_street": null,
+            "latitude": null,
+            "longitude": null,
+            "neighborhoods": [
+                "Beacon Hill",
+                "Boston"
+            ],
+            "floor_number": 5,
+            "property_type": "Apartment Building",
+            "rent": 2475,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 600,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Refrigerator"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-12-08",
+            "last_updated": "2010-12-08 03:21:43",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Kristie Donovan at Presidential Properties<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335158.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335156.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335154.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335148.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335153.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335149.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335144.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335145.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335139.jpg",
+                    "sort_order": 4,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335140.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335135.jpg",
+                    "sort_order": 5,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335131.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312513"
+        },
+        {
+            "rentjuice_id": 312511,
+            "title": null,
+            "description": "Most impressive \"true loft\" on the market in Boston today! Dennis Duffy designed Court Square Press unit has every upgrade imaginable. Poggenpohl kitchen with double oven, double drawer dishwasher, Thermador 5-burner gas stove with externally vented hood- a chef's dream. Master bathroom is a work of art with mosaic glass tile, soaking tub and massive glass enclosed shower stall. Custom stair leads to private roofdeck. Building has 24\/7 concierge, fitness center, pool, bbq's & outdoor terrace.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "9 W Broadway, Unit 606",
+            "street_number": 9,
+            "street": "W Broadway",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02127",
+            "unit_number": 606,
+            "cross_street": null,
+            "latitude": null,
+            "longitude": null,
+            "neighborhoods": [
+                "Boston",
+                "South Boston"
+            ],
+            "floor_number": 6,
+            "property_type": "Condominium",
+            "rent": 6950,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "square_footage": 2300,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Microwave",
+                "Pool",
+                "Refrigerator"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-11-01",
+            "last_updated": "2010-12-08 03:20:58",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Lindsay Smith at Gkr Residential<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335129.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335128.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335125.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335122.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335111.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335113.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335109.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335106.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335098.jpg",
+                    "sort_order": 4,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335104.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335099.jpg",
+                    "sort_order": 5,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335096.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335092.jpg",
+                    "sort_order": 6,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335094.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335088.jpg",
+                    "sort_order": 7,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5335089.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312511"
+        },
+        {
+            "rentjuice_id": 312503,
+            "title": null,
+            "description": "This 1st Floor Unit was Beautifully renovated in 2008 and meticulously cared for! You'll find Bamboo flooring, Granite Counters, Stainless Steel Appliances, Convection Oven and Cabinets all decorate the Kitchen. The 4-piece Bathroom with Jet Tub compliments the entire unit!  Included is custom Elfa Closet systems! A Must See for SAVIN HILL!  Walking distance to Train\/Bus, close to highway, and shopping!",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "13 Maryland St, Unit 1",
+            "street_number": 13,
+            "street": "Maryland St",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02125",
+            "unit_number": 1,
+            "cross_street": null,
+            "latitude": 42.3116274,
+            "longitude": -71.0553522,
+            "neighborhoods": [
+                "Boston"
+            ],
+            "floor_number": 1,
+            "property_type": "Condominium",
+            "rent": 1500,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 996,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Microwave",
+                "Refrigerator"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-10-29",
+            "last_updated": "2010-12-08 03:19:05",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Stephen Gousby at Gousby Realty Group, Llc<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334877.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334873.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334878.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334874.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334867.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334870.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334861.jpg",
+                    "sort_order": 3,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334865.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312503"
+        },
+        {
+            "rentjuice_id": 312501,
+            "title": null,
+            "description": "Deleaded First Floor with Fridge and In-Unit Laundry Hook-Ups. Applicants with Section 8\/Subsidies Welcomed.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "116 Brunswick St, Unit 1",
+            "street_number": 116,
+            "street": "Brunswick St",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02121",
+            "unit_number": 1,
+            "cross_street": null,
+            "latitude": 42.3105097,
+            "longitude": -71.0790848,
+            "neighborhoods": [
+                "Boston",
+                "Dorchester"
+            ],
+            "floor_number": 1,
+            "property_type": "Apartment Building",
+            "rent": 1550,
+            "fee": null,
+            "bedrooms": 3,
+            "bathrooms": 1,
+            "square_footage": 1544,
+            "features": [
+                "Disposal",
+                "Microwave",
+                "Refrigerator"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-12-15",
+            "last_updated": "2010-12-08 03:18:22",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Jonathan Marsh at At Home Real Estate Group, Inc<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334757.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334759.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334747.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334751.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334753.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334752.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334744.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334754.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334734.jpg",
+                    "sort_order": 4,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334741.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334730.jpg",
+                    "sort_order": 5,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334738.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334731.jpg",
+                    "sort_order": 6,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334728.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334723.jpg",
+                    "sort_order": 7,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334721.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334719.jpg",
+                    "sort_order": 8,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334725.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312501"
+        },
+        {
+            "rentjuice_id": 312489,
+            "title": null,
+            "description": "This apartment won't last long. Deeded parking included! Jan 1 Move in. Spacious 2 bedroom \/ 1 bathroom condo in Allston. Has a large open kitchen & living area with beautiful stainless steel appliances. Two decent sized bedrooms with one newly renovated bathroom.  Great area, located right off of Commonwealth Avenue - STEPS from the T and some great restaurants \/ shopping.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "15 Walbridge St, Unit 2",
+            "street_number": 15,
+            "street": "Walbridge St",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02134",
+            "unit_number": 2,
+            "cross_street": null,
+            "latitude": 42.347258,
+            "longitude": -71.1352811,
+            "neighborhoods": [
+                "Allston",
+                "Boston"
+            ],
+            "floor_number": 1,
+            "property_type": "Condominium",
+            "rent": 1750,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 767,
+            "features": [
+                null
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-12-08",
+            "last_updated": "2010-12-08 03:16:21",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Anthony Rich at Northeast Development & Investment, Inc.<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334390.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334389.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334383.jpg",
+                    "sort_order": 1,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334382.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312489"
+        },
+        {
+            "rentjuice_id": 312481,
+            "title": null,
+            "description": "Spacious one bedroom unit at The Chocolate Factory available January 1, 2011!  The unit features a large eat-in kitchen, hardwood floors and high ceilings.  Oversized windows let in plenty of light.  The unit has central air conditioning and comes with one off-street parking space.  There are laundry facilities in the building.  Convenient to MIT, Kendall and Central Squares, and a short walk to the shops and restaurants of Inman Square.  Tenant to pay their broker.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "253 Norfolk St, Unit 1-3",
+            "street_number": 253,
+            "street": "Norfolk St",
+            "city": "Cambridge",
+            "state": "MA",
+            "zip_code": "02139",
+            "unit_number": "1-3",
+            "cross_street": null,
+            "latitude": 42.3703376,
+            "longitude": -71.0980424,
+            "neighborhoods": [
+                "Cambridge"
+            ],
+            "floor_number": 1,
+            "property_type": "Condominium",
+            "rent": 1600,
+            "fee": null,
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "square_footage": 843,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Refrigerator"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2011-01-01",
+            "last_updated": "2010-12-08 03:14:23",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Christina Kaneb at Coldwell Banker Residential Brokerage - Cambridge - Mass Ave.<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334204.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334201.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334195.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334190.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334199.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334197.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334188.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334187.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334185.jpg",
+                    "sort_order": 4,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334183.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312481"
+        },
+        {
+            "rentjuice_id": 312477,
+            "title": null,
+            "description": "Luxury 2 bedroom condo in new construction building on Fenway\/Brookline line! This third floor unit features environmentally friendly bamboo flooring, modern kitchen equipped w\/ granite counters and stainless steel apps, including dishwasher, disposal, microwave and breakfast bar, W\/D in unit, ceramic & mosaic tile bath w\/ European style vanities and cabinets. Unit has central heat\/AC, cable\/internet hookups and garage parking available for $250. Pets considered on case by case basis!",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "16 Miner St, Unit 303",
+            "street_number": 16,
+            "street": "Miner St",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02215",
+            "unit_number": 303,
+            "cross_street": null,
+            "latitude": 42.3464505,
+            "longitude": -71.1028551,
+            "neighborhoods": [
+                "Boston",
+                "Fenway"
+            ],
+            "floor_number": 3,
+            "property_type": "Condominium",
+            "rent": 2900,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "square_footage": 991,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Elevator",
+                "Microwave",
+                "Refrigerator"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-12-15",
+            "last_updated": "2010-12-08 03:12:06",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Meri Galstian at Boston Homes Realty, Inc.<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334102.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334104.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334098.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334095.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334089.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334093.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334087.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334097.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334078.jpg",
+                    "sort_order": 4,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334076.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334069.jpg",
+                    "sort_order": 5,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334074.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334068.jpg",
+                    "sort_order": 6,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5334073.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312477"
+        },
+        {
+            "rentjuice_id": 312473,
+            "title": null,
+            "description": "First Floor Unit with Updated Kitchen & Bathroom, Coin-Operated Laundry, & Open Floor Plan.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "Blue Hill Ave, Unit 1",
+            "street_number": null,
+            "street": "Blue Hill Ave",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02124",
+            "unit_number": 1,
+            "cross_street": null,
+            "latitude": 42.2931,
+            "longitude": -71.0884166,
+            "neighborhoods": [
+                "Boston",
+                "Dorchester"
+            ],
+            "floor_number": 1,
+            "property_type": "Apartment Building",
+            "rent": 1650,
+            "fee": null,
+            "bedrooms": 3,
+            "bathrooms": 1,
+            "square_footage": 1100,
+            "features": [
+                "Disposal"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-12-15",
+            "last_updated": "2010-12-08 03:10:57",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Jonathan Marsh at At Home Real Estate Group, Inc<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5333845.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5333843.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312473"
+        },
+        {
+            "rentjuice_id": 312451,
+            "title": null,
+            "description": "Brand new renovations!  Enjoy the new and improved 755 Boylston.  Across from the Mandarin, 755 Boylston offers it all: concierge, elevator, private terraces, granite\/stainless kitchens, wine coolers, common rooftop terrace, and don't forget the location- in the middle of it all!  All layouts are 2 bed\/2bathrooms ranging from $3500-$7500\/mo.  Pet friendly building.  Available Now.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "755 Boylston St, Unit 701",
+            "street_number": 755,
+            "street": "Boylston St",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02116",
+            "unit_number": 701,
+            "cross_street": null,
+            "latitude": null,
+            "longitude": null,
+            "neighborhoods": [
+                "Back Bay",
+                "Boston"
+            ],
+            "floor_number": 7,
+            "property_type": "Apartment Building",
+            "rent": 6500,
+            "fee": null,
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "square_footage": 1350,
+            "features": [
+                null
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-12-15",
+            "last_updated": "2010-12-08 03:04:27",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Amy Jacobs at Otis & Ahearn - Newbury St<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5333080.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5333079.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5333075.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5333074.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5333068.jpg",
+                    "sort_order": 2,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5333067.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312451"
+        },
+        {
+            "rentjuice_id": 312443,
+            "title": null,
+            "description": "Luxurious and seldom available Four Seasons Place One bedroom home.  Includes one garage parking space.  Ideally situated on the 15th floor with great light and views!",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "220 Boylston St, Unit 1514",
+            "street_number": 220,
+            "street": "Boylston St",
+            "city": "Boston",
+            "state": "MA",
+            "zip_code": "02116",
+            "unit_number": 1514,
+            "cross_street": null,
+            "latitude": null,
+            "longitude": null,
+            "neighborhoods": [
+                "Back Bay",
+                "Boston"
+            ],
+            "floor_number": 15,
+            "property_type": "Condominium",
+            "rent": 3950,
+            "fee": null,
+            "bedrooms": 1,
+            "bathrooms": 1.5,
+            "square_footage": 972,
+            "features": [
+                "Disposal",
+                "Pool"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2010-12-07",
+            "last_updated": "2010-12-08 03:00:34",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Joseph Palermino at Cabot & Company<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332927.jpg",
+                    "sort_order": 0,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332928.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332922.jpg",
+                    "sort_order": 1,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332924.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332917.jpg",
+                    "sort_order": 2,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332920.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332912.jpg",
+                    "sort_order": 3,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332913.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332905.jpg",
+                    "sort_order": 4,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332903.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332907.jpg",
+                    "sort_order": 5,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332910.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332899.jpg",
+                    "sort_order": 6,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332898.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332894.jpg",
+                    "sort_order": 7,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332892.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332888.jpg",
+                    "sort_order": 8,
+                    "main_photo": false,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332895.jpg"
+                },
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332882.jpg",
+                    "sort_order": 9,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332885.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312443"
+        },
+        {
+            "rentjuice_id": 312427,
+            "title": null,
+            "description": "Coolidge Corner one bedroom convenient to Boston University and both the C and B line of the T.  Condo has all hardwood floors, large windows, South facing and heat and hot water included.  Common laundry.",
+            "agent_name": null,
+            "agent_email": null,
+            "agent_phone": null,
+            "featured": 0,
+            "address": "137 Freeman St, Unit #1",
+            "street_number": 137,
+            "street": "Freeman St",
+            "city": "Brookline",
+            "state": "MA",
+            "zip_code": "02446",
+            "unit_number": "#1",
+            "cross_street": null,
+            "latitude": 42.3472537,
+            "longitude": -71.1157672,
+            "neighborhoods": [
+                "Brookline"
+            ],
+            "floor_number": 1,
+            "property_type": "Condominium",
+            "rent": 1800,
+            "fee": null,
+            "bedrooms": 1,
+            "bathrooms": 1,
+            "square_footage": 835,
+            "features": [
+                "Dishwasher",
+                "Disposal",
+                "Pool",
+                "Refrigerator",
+                "Tennis court"
+            ],
+            "rental_terms": [
+                null
+            ],
+            "date_available": "2002-01-11",
+            "last_updated": "2010-12-08 02:56:32",
+            "source_type": "mls",
+            "source_name": "MLS PIN",
+            "attribution": "This listing courtesy of Julie Bell at Hammond Rental Group<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein.",
+            "photos": [
+                {
+                    "thumbnail": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332508.jpg",
+                    "sort_order": 0,
+                    "main_photo": true,
+                    "fullsize": "http:\/\/static.rentjuice.com\/frames\/2010\/12\/08\/5332507.jpg"
+                }
+            ],
+            "custom_fields": [
+                {
+                    "name": "Virtual Tour",
+                    "type": "text",
+                    "value": null
+                }
+            ],
+            "url": "http:\/\/app.rentjuice.com\/listings\/312427"
+        }
+    ],
+    "runtime": 2.04812
+}

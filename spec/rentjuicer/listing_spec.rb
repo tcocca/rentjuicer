@@ -94,4 +94,19 @@ describe Rentjuicer::Listing do
     end
   end
   
+  context "mls_listing" do
+    before do
+      @listing = Rentjuicer::Listing.new(valid_listing_rash.merge({
+        "source_type" => "mls",
+        "source_name" => "MLS PIN",
+        "attribution" => "This listing courtesy of Holly Kampler at Classic Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein."
+      }))
+    end
+    
+    it { @listing.mls_listing?.should be_true }
+    it { @listing.source_name.should == "MLS PIN" }
+    it { @listing.attribution.should == "This listing courtesy of Holly Kampler at Classic Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein."}
+    it { @listing.courtesy_of.should == "This listing courtesy of Holly Kampler at Classic Realty"}
+    it { @listing.mls_disclaimer.should == "The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein."}
+  end
 end

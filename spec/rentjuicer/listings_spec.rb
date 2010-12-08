@@ -38,6 +38,27 @@ describe Rentjuicer::Listing do
     end
   end
   
+  context "mls_search" do
+    before do
+      mock_get('/listings.json', 'mls_listings.json', {
+        :include_mls => "1",
+        :order_by => "rent",
+        :order_direction => "asc"
+      })
+      @result = @listings.search(:include_mls => "1")
+    end
+    
+    context "search response" do
+      it { @result.mls_results?.should be_true }
+      
+      it "should return an array of uniq property mls_disclaimers" do
+        @result.mls_disclaimers.should == [
+          "The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein."
+        ]
+      end
+    end
+  end
+  
   context "find_by_id" do
     before do
       mock_get('/listings.json', 'find_by_id.json', {
@@ -99,12 +120,33 @@ describe Rentjuicer::Listing do
       @properties = @listings.find_all_by_ids(@find_ids.join(','))
     end
     
-    it { @properties.should be_kind_of(Array) }
+    context "passing a string of ids" do
+      before do
+        @properties = @listings.find_all_by_ids(@find_ids.join(','))
+      end
+      
+      it { @properties.should be_kind_of(Array) }
+      
+      it "should only return properties for requested ids" do
+        @property_ids = @properties.collect{|p| p.rentjuice_id}
+        @find_ids.each do |id|
+          @property_ids.should include(id)
+        end
+      end
+    end
     
-    it "should only return properties for requested ids" do
-      @property_ids = @properties.collect{|p| p.rentjuice_id}
-      @find_ids.each do |id|
-        @property_ids.should include(id)
+    context "passing an array of ids" do
+      before do
+        @properties = @listings.find_all_by_ids(@find_ids)
+      end
+      
+      it { @properties.should be_kind_of(Array) }
+      
+      it "should only return properties for requested ids" do
+        @property_ids = @properties.collect{|p| p.rentjuice_id}
+        @find_ids.each do |id|
+          @property_ids.should include(id)
+        end
       end
     end
   end

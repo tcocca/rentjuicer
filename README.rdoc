@@ -158,7 +158,7 @@ and add require 'rentjuicer_extensions' to your config/environment.rb file.
 Now you can call @results.properties.first.neighborhood_list to get a nice comma separated list of neighborhood names.
 This class allows you to create any methods you want on a listing.
 
-=== The second group returns Rentjuicer::Listing responses
+==== The second group returns Rentjuicer::Listing responses
 
   :find_by_id - takes a rentjuice_id for a listing and returns a Rentjuicer::Listing if the property is found or nil if it is not found
   @property = @listings.find_by_id(18830) # returns either nil or a Rentjuicer::Listing
@@ -167,11 +167,31 @@ These methods just return a Rentjuicer::Listing or an array of Rentjuicer::Listi
 These methods work by making subsequent calls to go through the pagination of the results for you and compaction each request into a single array.  Use these methods only when absolutely necessary as they are expensive to use as they will make repeated api calls through the entire set of pages, so if there are 20 listings per page and 571 pages, this will make 29 api requests which is obviously quite time consuming.
 
   :find_all - take a hash of search params (same as :search above) and returns every result on every page of the response in an array 
-  :find_all_by_ids - takes a comma separated string of rentjuice_ids and returns every listing in an array
+  :find_all_by_ids - takes a comma separated string OR an array of rentjuice_ids and returns every listing in an array
   
   @results = @listings.find_all(:neighborhoods => 'Boston') # returns an array of every listing in Boston in a single array - no need for pagination
   @results = @listings.find_all_by_ids('200306,200221,200214,200121,199646,198560,197542,197540,197538) # returns an array of all of those listings that can be found
 
+==== Searching MLS listings 
+
+Rentjuice provides the option to return MLS listings for your account if you pass the include_mls=1 argument to the search.
+
+Rentjuicer adds some extra methods to the Rentjuicer::Listings::SearchResponse and Rentjuicer::Listing for working with the mls listings from Rentjuice due to the requirement that you display the attribution for each property.
+
+These attributions are typically in the following format:
+
+  "This listing courtesy of Holly Kampler at Classic Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein."
+
+===== On Rentjuicer::Listing we have added the following methods:
+
+  :mls_listing? - return true if the listing has a #source_type and that #source_type == 'mls'  (as opposed to internal)
+  :courtesy_of - returns the first half the attribution string after being split on the '<br /><br />'
+  :mls_disclaimer - returns the second half the attribution string after being split on the '<br /><br />'
+
+===== On Rentjuicer::Listings::SearchResponse we have added the following methods:
+
+  :mls_results? - return true if and listing in the #properties array is a mls_listing (uses #mls_listing? on the listing)
+  :mls_disclaimers - returns a array of the uniq #mls_disclaimer responses off the listings in the #properties array
 
 == Note on Patches/Pull Requests
  

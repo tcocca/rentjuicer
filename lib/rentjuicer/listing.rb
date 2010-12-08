@@ -53,5 +53,23 @@ module Rentjuicer
       self.neighborhoods.first unless neighborhoods.blank?
     end
 
+    def mls_listing?
+      source_type && source_type == "mls"
+    end
+
+    def mls_disclaimer
+      attribution_split[1] if mls_listing?
+    end
+
+    def courtesy_of
+      attribution_split[0] if mls_listing?
+    end
+
+    private
+
+    def attribution_split
+      @attribution_parts ||= attribution.split('<br /><br />')
+    end
+
   end
 end

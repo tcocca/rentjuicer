@@ -1,4 +1,5 @@
 require 'rubygems'
+gem 'activesupport', '~> 2.3'
 require 'httparty'
 require 'hashie'
 require 'rash'

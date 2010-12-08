@@ -10,6 +10,7 @@ begin
     gem.email = "tom.cocca@gmail.com"
     gem.homepage = "http://github.com/tcocca/rentjuicer"
     gem.authors = ["tcocca"]
+    gem.add_dependency "activesupport", '~> 2.3'
     gem.add_dependency "httparty", ">= 0.6.1"
     gem.add_dependency "hashie", ">= 0.4.0"
     gem.add_dependency "rash", ">= 0.2.0"
