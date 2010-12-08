@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rentjuicer}
-  s.version = "0.4.0"
+  s.version = "0.4.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["tcocca"]
-  s.date = %q{2010-10-06}
+  s.date = %q{2010-12-08}
   s.description = %q{Ruby API wrapper for rentjuice.com built with httparty}
   s.email = %q{tom.cocca@gmail.com}
   s.extra_rdoc_files = [
@@ -51,6 +51,7 @@ Gem::Specification.new do |s|
      "spec/responses/lead.json",
      "spec/responses/lead_error.json",
      "spec/responses/listings.json",
+     "spec/responses/mls_listings.json",
      "spec/responses/neighborhoods.json",
      "spec/responses/no_listings.json",
      "spec/spec.opts",
@@ -81,6 +82,7 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+      s.add_runtime_dependency(%q<activesupport>, ["~> 2.3"])
       s.add_runtime_dependency(%q<httparty>, [">= 0.6.1"])
       s.add_runtime_dependency(%q<hashie>, [">= 0.4.0"])
       s.add_runtime_dependency(%q<rash>, [">= 0.2.0"])
@@ -88,6 +90,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_development_dependency(%q<webmock>, [">= 1.3.4"])
     else
+      s.add_dependency(%q<activesupport>, ["~> 2.3"])
       s.add_dependency(%q<httparty>, [">= 0.6.1"])
       s.add_dependency(%q<hashie>, [">= 0.4.0"])
       s.add_dependency(%q<rash>, [">= 0.2.0"])
@@ -96,6 +99,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<webmock>, [">= 1.3.4"])
     end
   else
+    s.add_dependency(%q<activesupport>, ["~> 2.3"])
     s.add_dependency(%q<httparty>, [">= 0.6.1"])
     s.add_dependency(%q<hashie>, [">= 0.4.0"])
     s.add_dependency(%q<rash>, [">= 0.2.0"])
