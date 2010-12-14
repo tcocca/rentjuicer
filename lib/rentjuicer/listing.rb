@@ -58,7 +58,7 @@ module Rentjuicer
     end
 
     def mls_disclaimer
-      attribution_split[1] if mls_listing?
+      attribution_split[1].gsub('<br />', '') if mls_listing? && attribution_split[1]
     end
 
     def courtesy_of
@@ -68,7 +68,7 @@ module Rentjuicer
     private
 
     def attribution_split
-      @attribution_parts ||= attribution.split('<br /><br />')
+      @attribution_parts ||= attribution.split('<br />', 2)
     end
 
   end

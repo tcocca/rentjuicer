@@ -95,18 +95,53 @@ describe Rentjuicer::Listing do
   end
   
   context "mls_listing" do
-    before do
-      @listing = Rentjuicer::Listing.new(valid_listing_rash.merge({
-        "source_type" => "mls",
-        "source_name" => "MLS PIN",
-        "attribution" => "This listing courtesy of Holly Kampler at Classic Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein."
-      }))
+    context "mlspin - 2 br tags" do
+      before do
+        @listing = Rentjuicer::Listing.new(valid_listing_rash.merge({
+          "source_type" => "mls",
+          "source_name" => "MLS PIN",
+          "attribution" => "This listing courtesy of Holly Kampler at Classic Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein."
+        }))
+      end
+      
+      it { @listing.mls_listing?.should be_true }
+      it { @listing.source_name.should == "MLS PIN" }
+      it { @listing.attribution.should == "This listing courtesy of Holly Kampler at Classic Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein."}
+      it { @listing.courtesy_of.should == "This listing courtesy of Holly Kampler at Classic Realty"}
+      it { @listing.mls_disclaimer.should == "The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein."}
     end
     
-    it { @listing.mls_listing?.should be_true }
-    it { @listing.source_name.should == "MLS PIN" }
-    it { @listing.attribution.should == "This listing courtesy of Holly Kampler at Classic Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein."}
-    it { @listing.courtesy_of.should == "This listing courtesy of Holly Kampler at Classic Realty"}
-    it { @listing.mls_disclaimer.should == "The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein."}
+    context "RAMB - no disclaimer, attribution only" do
+      before do
+        @listing = Rentjuicer::Listing.new(valid_listing_rash.merge({
+          "source_type" => "mls",
+          "source_name" => "RAMB",
+          "attribution" => "This listing is courtesy of XYZ Realty"
+        }))
+      end
+      
+      it { @listing.mls_listing?.should be_true }
+      it { @listing.source_name.should == "RAMB" }
+      it { @listing.attribution.should == "This listing is courtesy of XYZ Realty"}
+      it { @listing.courtesy_of.should == "This listing is courtesy of XYZ Realty"}
+      it { @listing.mls_disclaimer.should be_nil}
+    end
+    
+    context "MRED - 1 br and an image" do
+      before do
+        @listing = Rentjuicer::Listing.new(valid_listing_rash.merge({
+          "source_type" => "mls",
+          "source_name" => "MRED",
+          "attribution" => "<img src=\"http://idx.advancedaccess.com/disclaimer/brlogo125.jpg\" style=\"float:left; padding-right:10px;\" />Listing office: XYZ Realty<br />Properties marked with the MRED approved icon are courtesy of Midwest Real Estate Data, LLC.  Information deemed reliable but not guaranteed.  Copyright&copy; 2010 Midwest Real Estate Data LLC.  All rights reserved."
+        }))
+      end
+      
+      it { @listing.mls_listing?.should be_true }
+      it { @listing.source_name.should == "MRED" }
+      it { @listing.attribution.should == "<img src=\"http://idx.advancedaccess.com/disclaimer/brlogo125.jpg\" style=\"float:left; padding-right:10px;\" />Listing office: XYZ Realty<br />Properties marked with the MRED approved icon are courtesy of Midwest Real Estate Data, LLC.  Information deemed reliable but not guaranteed.  Copyright&copy; 2010 Midwest Real Estate Data LLC.  All rights reserved."}
+      it { @listing.courtesy_of.should == "<img src=\"http://idx.advancedaccess.com/disclaimer/brlogo125.jpg\" style=\"float:left; padding-right:10px;\" />Listing office: XYZ Realty"}
+      it { @listing.mls_disclaimer.should == "Properties marked with the MRED approved icon are courtesy of Midwest Real Estate Data, LLC.  Information deemed reliable but not guaranteed.  Copyright&copy; 2010 Midwest Real Estate Data LLC.  All rights reserved."}
+    end
   end
+  
 end
