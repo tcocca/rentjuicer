@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rentjuicer}
-  s.version = "0.4.1"
+  s.version = "0.4.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["tcocca"]
-  s.date = %q{2010-12-08}
+  s.date = %q{2010-12-14}
   s.description = %q{Ruby API wrapper for rentjuice.com built with httparty}
   s.email = %q{tom.cocca@gmail.com}
   s.extra_rdoc_files = [
