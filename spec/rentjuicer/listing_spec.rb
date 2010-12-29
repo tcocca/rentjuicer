@@ -142,6 +142,53 @@ describe Rentjuicer::Listing do
       it { @listing.courtesy_of.should == "<img src=\"http://idx.advancedaccess.com/disclaimer/brlogo125.jpg\" style=\"float:left; padding-right:10px;\" />Listing office: XYZ Realty"}
       it { @listing.mls_disclaimer.should == "Properties marked with the MRED approved icon are courtesy of Midwest Real Estate Data, LLC.  Information deemed reliable but not guaranteed.  Copyright&copy; 2010 Midwest Real Estate Data LLC.  All rights reserved."}
     end
+    
+    context "nil attribution" do
+      before do
+        @listing = Rentjuicer::Listing.new(valid_listing_rash.merge({
+          "source_type" => "mls",
+          "source_name" => "MLS PIN",
+          "attribution" => nil
+        }))
+      end
+      
+      it { @listing.mls_listing?.should be_true }
+      it { @listing.source_name.should == "MLS PIN" }
+      it { @listing.attribution.should == nil}
+      it { @listing.courtesy_of.should == nil}
+      it { @listing.mls_disclaimer.should == nil}
+    end
+    
+    context "missing attribution" do
+      before do
+        @listing = Rentjuicer::Listing.new(valid_listing_rash.merge({
+          "source_type" => "mls",
+          "source_name" => "MLS PIN"
+        }))
+      end
+      
+      it { @listing.mls_listing?.should be_true }
+      it { @listing.source_name.should == "MLS PIN" }
+      it { @listing.attribution.should == nil}
+      it { @listing.courtesy_of.should == nil}
+      it { @listing.mls_disclaimer.should == nil}
+    end
+    
+    context "blank attribution" do
+      before do
+        @listing = Rentjuicer::Listing.new(valid_listing_rash.merge({
+          "source_type" => "mls",
+          "source_name" => "MLS PIN",
+          "attribution" => ""
+        }))
+      end
+      
+      it { @listing.mls_listing?.should be_true }
+      it { @listing.source_name.should == "MLS PIN" }
+      it { @listing.attribution.should == ""}
+      it { @listing.courtesy_of.should == nil}
+      it { @listing.mls_disclaimer.should == nil}
+    end
   end
   
 end
