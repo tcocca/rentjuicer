@@ -8,7 +8,7 @@ module Rentjuicer
       end
     end
 
-    def similar_listings(rj, limit = 6)
+    def similar_listings(rj, limit = 6, search_options = {})
       search_params = {
         :limit => limit + 1,
         :min_rent => self.rent.to_i * 0.9,
@@ -18,7 +18,7 @@ module Rentjuicer
         :min_baths => ((self.bathrooms.to_i - 1) <= 0 ? 0 : (self.bathrooms.to_i - 1)),
         :max_baths => self.bathrooms.to_i + 1,
         :neighborhoods => self.neighborhood_name
-      }
+      }.merge(search_options)
 
       similar = []
       listings = Rentjuicer::Listings.new(rj)
