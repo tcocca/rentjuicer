@@ -66,19 +66,21 @@ module Rentjuicer
       
       def properties
         return [] if self.body.listings.blank?
-        props = []
-        self.body.listings.each do |listing|
-          props << Rentjuicer::Listing.new(listing)
+        @cached_properties ||= begin
+          props = []
+          self.body.listings.each do |listing|
+            props << Rentjuicer::Listing.new(listing)
+          end
+          props
         end
-        props
       end
       
       def mls_results?
-        properties.any?{|property| property.mls_listing?}
+        @has_mls_properties ||= properties.any?{|property| property.mls_listing?}
       end
       
       def mls_disclaimers
-        properties.collect{|property| property.mls_disclaimer}.compact.uniq
+        @disclaimers ||= properties.collect{|property| property.mls_disclaimer}.compact.uniq
       end
       
       def paginator

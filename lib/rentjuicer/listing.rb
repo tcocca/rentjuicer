@@ -19,14 +19,15 @@ module Rentjuicer
         :max_baths => self.bathrooms.to_i + 1,
         :neighborhoods => self.neighborhood_name
       }.merge(search_options)
-
-      similar = []
-      listings = Rentjuicer::Listings.new(rj)
-      listings.search(search_params).properties.each do |prop|
-        similar << prop unless prop.id == self.id
-        break if similar.size == limit
+      @cached_similars ||= begin
+        similar = []
+        listings = Rentjuicer::Listings.new(rj)
+        listings.search(search_params).properties.each do |prop|
+          similar << prop unless prop.id == self.id
+          break if similar.size == limit
+        end
+        similar
       end
-      similar
     end
 
     def id
