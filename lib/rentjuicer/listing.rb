@@ -35,15 +35,15 @@ module Rentjuicer
     end
 
     def thumb_pic
-      main_pic[:thumbnail] if sorted_photos
+      main_pic[:thumbnail] if main_pic
     end
 
     def first_pic
-      main_pic[:fullsize] if sorted_photos
+      main_pic[:fullsize] if main_pic
     end
 
     def main_pic
-      sorted_photos.detect(lambda {return sorted_photos.first}) { |photo| photo[:main_photo] }
+      sorted_photos.detect(lambda {return sorted_photos.first}) { |photo| photo[:main_photo] } if sorted_photos
     end
 
     def sorted_photos
