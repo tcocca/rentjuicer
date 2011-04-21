@@ -12,7 +12,7 @@ module Rentjuicer
       limit = params[:limit] || 20
       params[:order_by] ||= "rent"
       params[:order_direction] ||= "asc"
-      SearchResponse.new(self.client.class.get(resource, :query => params), limit)
+      SearchResponse.new(self.client.process_get(resource, params), limit)
     end
     
     def featured(params = {})
@@ -21,7 +21,7 @@ module Rentjuicer
     end
     
     def find_by_id(listing_id)
-      response = SearchResponse.new(self.client.class.get(resource, :query => {:rentjuice_id => listing_id}))
+      response = SearchResponse.new(self.client.process_get(resource, {:rentjuice_id => listing_id}))
       (response.success? && response.properties.size > 0) ? response.properties.first : nil
     end
     

@@ -3,13 +3,13 @@ module Rentjuicer
     
     attr_accessor :body
     
-    def initialize(response, raise_error = true)
+    def initialize(response, raise_error = false)
       rash_response(response)
       raise Error.new(self.body.code, self.body.message) if !success? && raise_error
     end
     
     def success?
-      self.body.status == "ok"
+      self.body && !self.body.blank? && self.body.respond_to?(:status) && self.body.status == "ok"
     end
     
     def method_missing(method_name, *args)

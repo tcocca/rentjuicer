@@ -34,6 +34,9 @@ Rentjuicer::Response also implements some method_missing so any methods on respo
 
   @results.neighborhoods == @results.body.neighborhoods
 
+Rentjuicer::Response by default does not raise an exception if the API errors, but the success? method will return false.
+There are some methods that you can call that will trigger exceptions (typically the ! methods, see below).
+
 In the rest of the README I will be accessing the methods off of response as I think it is cleaner to use and read.
 
 
@@ -53,7 +56,11 @@ To get a list of your neighborhoods in rentjuice you can access the neighborhood
   
   @response.neighborhoods contains an array of Rentjuice neighborhood objects in Hashie::Rash format
 
-if the request is invalid a Rentjuicer::Error exception will be raised
+If the request is invalid a Rentjuicer::Error exception will be not be raised but the @response.success? will return false.
+To trigger an error to raise if the request is invalid call:
+
+  @response = @neighborhoods.find_all!
+
 
 
 === Adding a lead to your account

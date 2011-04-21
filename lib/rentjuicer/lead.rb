@@ -10,7 +10,7 @@ module Rentjuicer
     
     def create(name, params = {}, raise_error = false)
       params.merge!(:name => name)
-      Response.new(self.client.class.get(resource, :query => params), raise_error)
+      Response.new(self.client.process_get(resource, params), raise_error)
     end
     
     def create!(name, params = {})

@@ -9,23 +9,23 @@ describe Rentjuicer::Response do
       mock_get(@neighborhoods.resource, 'error.json')
     end
     
-    it "should raise an exception" do
+    it "should not raise an exception" do
       lambda {
         @neighborhoods.find_all
-      }.should raise_exception
-    end
-  end
-  
-  context "passing raise_errors = false" do
-    it "should not raise errors when raise_errors is false" do
-      lambda {
-        Rentjuicer::Response.new(httparty_get('/neighborhoods.json', 'error.json'), false)
       }.should_not raise_exception
     end
     
     it "should not be a success" do
-      @response = Rentjuicer::Response.new(httparty_get('/neighborhoods.json', 'error.json'), false)
+      @response = Rentjuicer::Response.new(httparty_get('/neighborhoods.json', 'error.json'))
       @response.success?.should be_false
+    end
+  end
+  
+  context "passing raise_errors = true" do
+    it "should raise errors when raise_errors is false" do
+      lambda {
+        Rentjuicer::Response.new(httparty_get('/neighborhoods.json', 'error.json'), true)
+      }.should raise_exception(Rentjuicer::Error, "Rentjuicer Error: Invalid API key. (code: 1)")
     end
   end
   
