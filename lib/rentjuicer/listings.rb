@@ -86,7 +86,7 @@ module Rentjuicer
       def paginator
         paginator_cache if paginator_cache
         self.paginator_cache = WillPaginate::Collection.create(
-          self.body.page, 
+          self.body.page ||= 1, 
           @limit, 
           (self.body.total_count ? self.body.total_count : properties.size)) do |pager|
           pager.replace properties
