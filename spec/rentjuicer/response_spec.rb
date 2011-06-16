@@ -65,6 +65,11 @@ describe Rentjuicer::Response do
       @results.body = body
       @results.total_count.should == 25
     end
+    
+    it "should return @properties.size when total_count is nil for total_results" do
+      @results.body.stub!(:total_count).and_return(nil)
+      @results.total_results.should == 20
+    end
 
     it "should call super if body does not response to the method" do
       lambda { @results.bad_method }.should raise_error(NoMethodError, /undefined method `bad_method'/)

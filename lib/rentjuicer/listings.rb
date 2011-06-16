@@ -32,7 +32,7 @@ module Rentjuicer
       response = search(params)
       if response.success?
         all_listings << response.properties
-        total_pages = (response.body.total_count/per_page.to_f).ceil
+        total_pages = (response.total_results/per_page.to_f).ceil
         if total_pages > 1
           (2..total_pages).each do |page_num|
             resp = search(params.merge(:page => page_num))
@@ -75,6 +75,10 @@ module Rentjuicer
         end
       end
       
+      def total_results
+        self.body.total_count ? self.body.total_count : properties.size
+      end
+      
       def mls_results?
         @has_mls_properties ||= properties.any?{|property| property.mls_listing?}
       end
@@ -88,7 +92,7 @@ module Rentjuicer
         self.paginator_cache = WillPaginate::Collection.create(
           self.body.page ||= 1, 
           @limit, 
-          (self.body.total_count ? self.body.total_count : properties.size)) do |pager|
+          self.total_results) do |pager|
           pager.replace properties
         end
       end
