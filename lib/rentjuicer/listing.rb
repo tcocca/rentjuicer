@@ -51,7 +51,13 @@ module Rentjuicer
     end
 
     def neighborhood_name
-      self.neighborhoods.first unless neighborhoods.blank?
+      unless neighborhoods.blank?
+        if self.neighborhoods.first.is_a?(String)
+          self.neighborhoods.first 
+        elsif self.neighborhoods.first.is_a?(Array)
+          self.neighborhoods.first[1]
+        end
+      end
     end
 
     def mls_listing?
