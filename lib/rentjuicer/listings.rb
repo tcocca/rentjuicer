@@ -20,8 +20,8 @@ module Rentjuicer
       search(params)
     end
     
-    def find_by_id(listing_id)
-      response = SearchResponse.new(self.client.process_get(resource, {:rentjuice_id => listing_id}))
+    def find_by_id(listing_id, params = {})
+      response = SearchResponse.new(self.client.process_get(resource, params.merge(:rentjuice_id => listing_id)))
       (response.success? && response.properties.size > 0) ? response.properties.first : nil
     end
     
@@ -45,12 +45,12 @@ module Rentjuicer
       all_listings.flatten
     end
     
-    def find_all_by_ids(listing_ids)
+    def find_all_by_ids(listing_ids, params = {})
       listing_ids = listing_ids.split(',') if listing_ids.is_a?(String)
       all_listings = []
       listing_ids.in_groups_of(500, false).each do |group|
         group.delete_if{|x| x.nil?}
-        all_listings << find_all(:rentjuice_id => group.join(','))
+        all_listings << find_all(params.merge(:rentjuice_id => group.join(',')))
       end
       all_listings.flatten
     end
