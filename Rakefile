@@ -30,4 +30,4 @@ RSpec::Core::RakeTask.new(:spec)
 task :test => :spec
 task :default => :spec
 
-require 'rake/rdoctask'
+require 'rdoc/task'
