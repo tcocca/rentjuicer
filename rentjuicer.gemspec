@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rentjuicer}
-  s.version = "0.6.3"
+  s.version = "0.7.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["tcocca"]
-  s.date = %q{2011-06-17}
+  s.date = %q{2011-10-30}
   s.description = %q{Ruby API wrapper for rentjuice.com built with httparty}
   s.email = %q{tom.cocca@gmail.com}
   s.extra_rdoc_files = [
@@ -79,28 +79,28 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<activesupport>, ["~> 3"])
+      s.add_runtime_dependency(%q<activesupport>, ["~> 2.3"])
       s.add_runtime_dependency(%q<httparty>, [">= 0.6.1"])
       s.add_runtime_dependency(%q<hashie>, [">= 0.4.0"])
       s.add_runtime_dependency(%q<rash>, [">= 0.2.0"])
-      s.add_runtime_dependency(%q<will_paginate>, [">= 3"])
+      s.add_runtime_dependency(%q<will_paginate>, [">= 2.3.4"])
       s.add_development_dependency(%q<rspec>, [">= 2.5.0"])
       s.add_development_dependency(%q<webmock>, [">= 1.6.2"])
     else
-      s.add_dependency(%q<activesupport>, ["~> 3"])
+      s.add_dependency(%q<activesupport>, ["~> 2.3"])
       s.add_dependency(%q<httparty>, [">= 0.6.1"])
       s.add_dependency(%q<hashie>, [">= 0.4.0"])
       s.add_dependency(%q<rash>, [">= 0.2.0"])
-      s.add_dependency(%q<will_paginate>, [">= 3"])
+      s.add_dependency(%q<will_paginate>, [">= 2.3.4"])
       s.add_dependency(%q<rspec>, [">= 2.5.0"])
       s.add_dependency(%q<webmock>, [">= 1.6.2"])
     end
   else
-    s.add_dependency(%q<activesupport>, ["~> 3"])
+    s.add_dependency(%q<activesupport>, ["~> 2.3"])
     s.add_dependency(%q<httparty>, [">= 0.6.1"])
     s.add_dependency(%q<hashie>, [">= 0.4.0"])
     s.add_dependency(%q<rash>, [">= 0.2.0"])
-    s.add_dependency(%q<will_paginate>, [">= 3"])
+    s.add_dependency(%q<will_paginate>, [">= 2.3.4"])
     s.add_dependency(%q<rspec>, [">= 2.5.0"])
     s.add_dependency(%q<webmock>, [">= 1.6.2"])
   end
