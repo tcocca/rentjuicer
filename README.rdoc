@@ -13,7 +13,7 @@ API documentation is here: http://api.rentjuice.com/documentation/RentJuice_API.
 
 In a rails 3 app
 
-  gem 'rentjuicer', '~> 0.7.0'
+  gem 'rentjuicer', '~> 0.7.1'
 
 In a rails 2.3.x app  (0.6.x only)
 
