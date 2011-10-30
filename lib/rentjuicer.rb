@@ -1,9 +1,11 @@
 require 'rubygems'
-gem 'activesupport', '~> 2.3'
+gem 'activesupport', '~> 3'
 require 'httparty'
 require 'hashie'
 require 'rash'
 require 'will_paginate'
+require 'will_paginate/collection'
+require 'active_support/core_ext/array'
 
 require 'rentjuicer/client'
 require 'rentjuicer/response'
