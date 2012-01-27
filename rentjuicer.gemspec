@@ -81,16 +81,14 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<activesupport>, ["~> 3"])
       s.add_runtime_dependency(%q<httparty>, [">= 0.6.1"])
-      s.add_runtime_dependency(%q<hashie>, [">= 0.4.0"])
-      s.add_runtime_dependency(%q<rash>, [">= 0.2.0"])
+      s.add_runtime_dependency(%q<rash>, [">= 0.3.2"])
       s.add_runtime_dependency(%q<will_paginate>, [">= 3"])
       s.add_development_dependency(%q<rspec>, [">= 2.5.0"])
       s.add_development_dependency(%q<webmock>, [">= 1.6.2"])
     else
       s.add_dependency(%q<activesupport>, ["~> 3"])
       s.add_dependency(%q<httparty>, [">= 0.6.1"])
-      s.add_dependency(%q<hashie>, [">= 0.4.0"])
-      s.add_dependency(%q<rash>, [">= 0.2.0"])
+      s.add_dependency(%q<rash>, [">= 0.3.2"])
       s.add_dependency(%q<will_paginate>, [">= 3"])
       s.add_dependency(%q<rspec>, [">= 2.5.0"])
       s.add_dependency(%q<webmock>, [">= 1.6.2"])
@@ -98,11 +96,9 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<activesupport>, ["~> 3"])
     s.add_dependency(%q<httparty>, [">= 0.6.1"])
-    s.add_dependency(%q<hashie>, [">= 0.4.0"])
-    s.add_dependency(%q<rash>, [">= 0.2.0"])
+    s.add_dependency(%q<rash>, [">= 0.3.2"])
     s.add_dependency(%q<will_paginate>, [">= 3"])
     s.add_dependency(%q<rspec>, [">= 2.5.0"])
     s.add_dependency(%q<webmock>, [">= 1.6.2"])
   end
 end
-

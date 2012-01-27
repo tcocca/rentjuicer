@@ -65,7 +65,7 @@ module Rentjuicer
       end
       
       def properties
-        return [] if self.body.listings.blank?
+        return [] if !self.success? || self.body.listings.blank?
         @cached_properties ||= begin
           props = []
           self.body.listings.each do |listing|

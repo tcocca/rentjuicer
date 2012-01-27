@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'httparty'
-require 'hashie'
 require 'rash'
 require 'will_paginate/collection'
 require 'active_support/core_ext/array/grouping'
