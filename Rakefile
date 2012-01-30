@@ -12,8 +12,7 @@ begin
     gem.authors = ["tcocca"]
     gem.add_dependency "activesupport", '~> 3'
     gem.add_dependency "httparty", ">= 0.6.1"
-    gem.add_dependency "hashie", ">= 0.4.0"
-    gem.add_dependency "rash", ">= 0.2.0"
+    gem.add_dependency "rash", ">= 0.3.2"
     gem.add_dependency "will_paginate", ">= 3"
     gem.add_development_dependency "rspec", ">= 2.5.0"
     gem.add_development_dependency "webmock", ">= 1.6.2"
