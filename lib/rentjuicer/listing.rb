@@ -1,10 +1,10 @@
 module Rentjuicer
   class Listing
-    
+
     def initialize(listing)
-      listing.keys.each do |key, value|
-        self.instance_variable_set('@'+key, listing.send(key))
-        self.class.send(:define_method, key, proc{self.instance_variable_get("@#{key}")})
+      listing.each do |key, value|
+        self.instance_variable_set("@#{key}", value)
+        self.class.send(:attr_reader, key)
       end
     end
 
@@ -43,7 +43,7 @@ module Rentjuicer
     end
 
     def main_pic
-      sorted_photos.detect(lambda {return sorted_photos.first}) { |photo| photo[:main_photo] } if sorted_photos
+      @main_picture ||= sorted_photos.detect(lambda {return sorted_photos.first}) { |photo| photo[:main_photo] } if sorted_photos
     end
 
     def sorted_photos
@@ -51,11 +51,13 @@ module Rentjuicer
     end
 
     def neighborhood_name
-      unless neighborhoods.blank?
-        if self.neighborhoods.first.is_a?(String)
-          self.neighborhoods.first 
-        elsif self.neighborhoods.first.is_a?(Array)
-          self.neighborhoods.first[1]
+      @neigh_name ||= begin
+        unless neighborhoods.blank?
+          if self.neighborhoods.first.is_a?(String)
+            self.neighborhoods.first
+          elsif self.neighborhoods.first.is_a?(Array)
+            self.neighborhoods.first[1]
+          end
         end
       end
     end
