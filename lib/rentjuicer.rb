@@ -3,6 +3,7 @@ require 'httparty'
 require 'rash'
 require 'will_paginate/collection'
 require 'active_support/core_ext/array/grouping'
+require 'active_support/core_ext/object/blank'
 
 require 'rentjuicer/client'
 require 'rentjuicer/response'

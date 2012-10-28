@@ -1,27 +1,5 @@
-require 'rubygems'
-require 'rake'
-
-begin
-  require 'jeweler'
-  Jeweler::Tasks.new do |gem|
-    gem.name = "rentjuicer"
-    gem.summary = %Q{ruby api wrapper for rentjuice}
-    gem.description = %Q{Ruby API wrapper for rentjuice.com built with httparty}
-    gem.email = "tom.cocca@gmail.com"
-    gem.homepage = "http://github.com/tcocca/rentjuicer"
-    gem.authors = ["tcocca"]
-    gem.add_dependency "activesupport", '~> 3'
-    gem.add_dependency "httparty", ">= 0.6.1"
-    gem.add_dependency "rash", ">= 0.3.2"
-    gem.add_dependency "will_paginate", ">= 3"
-    gem.add_development_dependency "rspec", ">= 2.5.0"
-    gem.add_development_dependency "webmock", ">= 1.6.2"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
-  end
-  Jeweler::GemcutterTasks.new
-rescue LoadError
-  puts "Jeweler (or a dependency) not available. Install it with: gem install jeweler"
-end
+require 'bundler'
+Bundler::GemHelper.install_tasks
 
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec)
@@ -29,4 +7,12 @@ RSpec::Core::RakeTask.new(:spec)
 task :test => :spec
 task :default => :spec
 
-require 'rdoc/task'
+require 'rake/rdoctask'
+Rake::RDocTask.new do |rdoc|
+  version = File.exist?('VERSION') ? File.read('VERSION') : ""
+
+  rdoc.rdoc_dir = 'rdoc'
+  rdoc.title = "you_got_listed #{version}"
+  rdoc.rdoc_files.include('README*')
+  rdoc.rdoc_files.include('lib/**/*.rb')
+end
