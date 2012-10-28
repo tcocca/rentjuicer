@@ -4,6 +4,10 @@ def new_rentjuicer
   Rentjuicer::Client.new(RENTJUICER_API_KEY)
 end
 
+def new_timeout_5_rentjuicer
+  Rentjuicer::Client.new(RENTJUICER_API_KEY, 5)
+end
+
 def mock_get(resource, response_fixture, params = {})
   url = "http://api.rentjuice.com/#{RENTJUICER_API_KEY}#{resource}"
   unless params.blank?
