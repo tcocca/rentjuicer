@@ -38,7 +38,7 @@ describe Rentjuicer::Listing do
       end
     end
   end
-  
+
   context "mls_search" do
     before do
       mock_get('/listings.json', 'mls_listings.json', {

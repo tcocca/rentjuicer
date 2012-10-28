@@ -104,4 +104,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<webmock>, [">= 1.6.2"])
   end
 end
-
