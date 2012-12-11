@@ -133,9 +133,10 @@ a Rentjuicer::Listing object responds to the following methods:
   :first_pic - returns the url for the main_pic fullsize photo
   :neighborhood_name - returns the first name in the neighborhoods hash
   
-Also, we have added another method :similar_listings which takes a Rentjuicer::Client object and does a search call
+Also, we have added another method :similar_listings which takes an optional limit and optional search params and does a search call
+Note: Starting with v0.9.0 similar_listings no longer takes a Rentjuicer::Client param as we are passing this to the Rentjuicer::Listing automatically
 
-  @results.properties.first.similar_listings(@rentjuicer)
+  @results.properties.first.similar_listings
 
 This method performs a search and returns an array for Rentjuicer::Listing objects based on the following criteria
 
@@ -149,7 +150,12 @@ This method performs a search and returns an array for Rentjuicer::Listing objec
 
 You can also pass a limit to the similar_listings method, the default is 6 properties (max) returned
 
-  @results.properties.first.similar_listings(@rentjuicer, 10) # returns max 10 similar listings
+  @results.properties.first.similar_listings(10) # returns max 10 similar listings
+
+Finally, you can pass an optional hash of params to merge into the search
+
+  # would do the normal similar listings search but with the added condition of returning only featured listings
+  @results.properties.first.similar_listings(10, {:featured => 1})
 
 ===== Extending Rentjuicer::Listing
 Another benefit to this Rentjuicer::Listing class is that in your app you can open the class again and add more methods if you wish.  For example create a file:  RAILS_ROOT/lib/rentjuicer_extensions.rb with the following:
