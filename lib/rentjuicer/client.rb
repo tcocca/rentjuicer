@@ -9,7 +9,7 @@ module Rentjuicer
     def initialize(api_key, http_timeout = nil)
       self.api_key = api_key
       self.http_timeout = http_timeout
-      self.class.base_uri "api.rentjuice.com/#{self.api_key}"
+      self.class.base_uri "api.rentalapp.zillow.com/#{self.api_key}"
     end
 
     def listings

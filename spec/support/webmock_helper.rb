@@ -9,7 +9,7 @@ def new_timeout_5_rentjuicer
 end
 
 def mock_get(resource, response_fixture, params = {})
-  url = "http://api.rentjuice.com/#{RENTJUICER_API_KEY}#{resource}"
+  url = "http://api.rentalapp.zillow.com/#{RENTJUICER_API_KEY}#{resource}"
   unless params.blank?
     stub_http_request(:get, url).with(:query => params).to_return(:body => mocked_response(response_fixture))
   else
@@ -22,7 +22,7 @@ def mocked_response(response_fixture)
 end
 
 def httparty_get(resource, response_fixture, params = {})
-  url = "http://api.rentjuice.com/#{RENTJUICER_API_KEY}#{resource}"
+  url = "http://api.rentalapp.zillow.com/#{RENTJUICER_API_KEY}#{resource}"
   mock_get(resource, response_fixture, params)
   HTTParty.get url, :format => :json
 end

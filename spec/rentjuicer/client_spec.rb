@@ -13,7 +13,7 @@ describe Rentjuicer::Client do
     end
 
     it "should set the base uri" do
-      @rentjuicer.class.base_uri.should == "http://api.rentjuice.com/#{RENTJUICER_API_KEY}"
+      @rentjuicer.class.base_uri.should == "http://api.rentalapp.zillow.com/#{RENTJUICER_API_KEY}"
     end
   end
 
@@ -28,7 +28,7 @@ describe Rentjuicer::Client do
     end
 
     it "should set the base uri" do
-      @rentjuicer.class.base_uri.should == "http://api.rentjuice.com/#{RENTJUICER_API_KEY}"
+      @rentjuicer.class.base_uri.should == "http://api.rentalapp.zillow.com/#{RENTJUICER_API_KEY}"
     end
   end
 end

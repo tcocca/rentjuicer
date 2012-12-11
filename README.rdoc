@@ -1,10 +1,10 @@
 = rentjuicer
 
-Rentjuicer is a ruby gem that wraps the rentjucier.com api for listings, neighborhoods and adding leads.  Rentjuicer is built on top of HTTParty.
+Rentjuicer is a ruby gem that wraps the Zillow Rentals (formerly Rentjuice) API for listings, neighborhoods and adding leads.  Rentjuicer is built on top of HTTParty.
 
 Rentjuicer requires access to rentjuice.com's api through an Rentjuice api key so make sure you have acquired a key from Rentjuice before starting with this gem.
 
-API documentation is here: http://api.rentjuice.com/documentation/RentJuice_API.pdf
+API documentation is here: http://api.rentalapp.zillow.com/documentation/RentJuice_API.pdf
 
 
 == Installation
