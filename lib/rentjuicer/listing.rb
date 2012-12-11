@@ -1,14 +1,17 @@
 module Rentjuicer
   class Listing
 
-    def initialize(listing)
+    attr_accessor :client
+
+    def initialize(listing, client)
       listing.each do |key, value|
         self.instance_variable_set("@#{key}", value)
         self.class.send(:attr_reader, key)
       end
+      self.client = client
     end
 
-    def similar_listings(rj, limit = 6, search_options = {})
+    def similar_listings(limit = 6, search_options = {})
       search_params = {
         :limit => limit + 1,
         :min_rent => self.rent.to_i * 0.9,
@@ -21,7 +24,7 @@ module Rentjuicer
       }.merge(search_options)
       @cached_similars ||= begin
         similar = []
-        listings = Rentjuicer::Listings.new(rj)
+        listings = Rentjuicer::Listings.new(self.client)
         listings.search(search_params).properties.each do |prop|
           similar << prop unless prop.id == self.id
           break if similar.size == limit

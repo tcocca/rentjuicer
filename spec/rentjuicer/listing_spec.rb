@@ -3,7 +3,8 @@ require 'spec_helper'
 describe Rentjuicer::Listing do
 
   before do
-    @listing = Rentjuicer::Listing.new(valid_listing_rash)
+    @rentjuicer = new_rentjuicer
+    @listing = Rentjuicer::Listing.new(valid_listing_rash, @rentjuicer)
   end
 
   it "should create methods from all hash keys" do
@@ -46,7 +47,6 @@ describe Rentjuicer::Listing do
 
   context "default similar listings" do
     before do
-      @rentjuicer = new_rentjuicer
       mock_get('/listings.json', 'listings.json', {
           :neighborhoods => "South Boston", 
           :min_rent => "2250.0",
@@ -59,7 +59,7 @@ describe Rentjuicer::Listing do
           :order_by => "rent",
           :order_direction => "asc"
       })
-      @similar_props = @listing.similar_listings(@rentjuicer)
+      @similar_props = @listing.similar_listings
     end
 
     it "should return an array of listings" do
@@ -71,7 +71,6 @@ describe Rentjuicer::Listing do
 
   context "similar listings with custom limit" do
     before do
-      @rentjuicer = new_rentjuicer
       mock_get('/listings.json', 'listings.json', {
           :neighborhoods => "South Boston", 
           :min_rent => "2250.0",
@@ -84,7 +83,7 @@ describe Rentjuicer::Listing do
           :order_by => "rent",
           :order_direction => "asc"
       })
-      @similar_props = @listing.similar_listings(@rentjuicer, 4)
+      @similar_props = @listing.similar_listings(4)
     end
 
     it "should return an array of listings" do
@@ -97,7 +96,6 @@ describe Rentjuicer::Listing do
   context "nil similar listings" do
     context "null listings" do
       before do
-        @rentjuicer = new_rentjuicer
         mock_get('/listings.json', 'null_listings.json', {
             :neighborhoods => "South Boston", 
             :min_rent => "2250.0",
@@ -110,7 +108,7 @@ describe Rentjuicer::Listing do
             :order_by => "rent",
             :order_direction => "asc"
         })
-        @similar_props = @listing.similar_listings(@rentjuicer)
+        @similar_props = @listing.similar_listings
       end
 
       it "should return an empty array of listings" do
@@ -120,7 +118,6 @@ describe Rentjuicer::Listing do
 
     context "missing listings" do
       before do
-        @rentjuicer = new_rentjuicer
         mock_get('/listings.json', 'missing_listings.json', {
             :neighborhoods => "South Boston", 
             :min_rent => "2250.0",
@@ -133,7 +130,7 @@ describe Rentjuicer::Listing do
             :order_by => "rent",
             :order_direction => "asc"
         })
-        @similar_props = @listing.similar_listings(@rentjuicer)
+        @similar_props = @listing.similar_listings
       end
 
       it "should return an empty array of listings" do
@@ -143,7 +140,6 @@ describe Rentjuicer::Listing do
 
     context "empty response" do
       before do
-        @rentjuicer = new_rentjuicer
         mock_get('/listings.json', 'empty_response.json', {
             :neighborhoods => "South Boston", 
             :min_rent => "2250.0",
@@ -156,7 +152,7 @@ describe Rentjuicer::Listing do
             :order_by => "rent",
             :order_direction => "asc"
         })
-        @similar_props = @listing.similar_listings(@rentjuicer)
+        @similar_props = @listing.similar_listings
       end
 
       it "should return an empty array of listings" do
@@ -172,7 +168,7 @@ describe Rentjuicer::Listing do
           "source_type" => "mls",
           "source_name" => "MLS PIN",
           "attribution" => "This listing courtesy of Holly Kampler at Classic Realty<br \/><br \/>The property listing data and information, or the Images, set forth herein were provided to MLS Property Information Network, Inc. from third party sources, including sellers, lessors and public records, and were compiled by MLS Property Information Network, Inc.  The property listing data and information, and the Images, are for the personal, non-commercial use of consumers having a good faith interest in purchasing or leasing listed properties of the type displayed to them and may not be used for any purpose other than to identify prospective properties which such consumers may have a good faith interest in purchasing or leasing.  MLS Property Information Network, Inc. and its subscribers disclaim any and all representations and warranties as to the accuracy of the property listing data and information, or as to the accuracy of any of the Images, set forth herein."
-        }))
+        }), @rentjuicer)
       end
 
       it { @listing.mls_listing?.should be_true }
@@ -188,7 +184,7 @@ describe Rentjuicer::Listing do
           "source_type" => "mls",
           "source_name" => "RAMB",
           "attribution" => "This listing is courtesy of XYZ Realty"
-        }))
+        }), @rentjuicer)
       end
 
       it { @listing.mls_listing?.should be_true }
@@ -204,7 +200,7 @@ describe Rentjuicer::Listing do
           "source_type" => "mls",
           "source_name" => "MRED",
           "attribution" => "<img src=\"http://idx.advancedaccess.com/disclaimer/brlogo125.jpg\" style=\"float:left; padding-right:10px;\" />Listing office: XYZ Realty<br />Properties marked with the MRED approved icon are courtesy of Midwest Real Estate Data, LLC.  Information deemed reliable but not guaranteed.  Copyright&copy; 2010 Midwest Real Estate Data LLC.  All rights reserved."
-        }))
+        }), @rentjuicer)
       end
 
       it { @listing.mls_listing?.should be_true }
@@ -220,7 +216,7 @@ describe Rentjuicer::Listing do
           "source_type" => "mls",
           "source_name" => "MLS PIN",
           "attribution" => nil
-        }))
+        }), @rentjuicer)
       end
 
       it { @listing.mls_listing?.should be_true }
@@ -235,7 +231,7 @@ describe Rentjuicer::Listing do
         @listing = Rentjuicer::Listing.new(valid_listing_rash.merge({
           "source_type" => "mls",
           "source_name" => "MLS PIN"
-        }))
+        }), @rentjuicer)
       end
 
       it { @listing.mls_listing?.should be_true }
@@ -251,7 +247,7 @@ describe Rentjuicer::Listing do
           "source_type" => "mls",
           "source_name" => "MLS PIN",
           "attribution" => ""
-        }))
+        }), @rentjuicer)
       end
 
       it { @listing.mls_listing?.should be_true }

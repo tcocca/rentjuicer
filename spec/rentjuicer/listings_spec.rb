@@ -23,7 +23,7 @@ describe Rentjuicer::Listing do
     context "search response" do
       it { @result.should be_kind_of(Rentjuicer::Response)}
 
-      it { @result.should respond_to(:properties, :paginator) }
+      it { @result.should respond_to(:properties, :paginator, :client) }
 
       it "should return an array of properties" do
         @result.properties.should be_kind_of(Array)
