@@ -13,7 +13,7 @@ API documentation is here: http://api.rentalapp.zillow.com/documentation/RentJui
 
 In a rails 3 app
 
-  gem 'rentjuicer', '~> 0.10.0'
+  gem 'rentjuicer', '~> 0.10.1'
 
 In a rails 2.3.x app  (0.6.x only)
 
