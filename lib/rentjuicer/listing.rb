@@ -10,17 +10,30 @@ module Rentjuicer
       end
       self.client = client
     end
-
-    def similar_listings(limit = 6, search_options = {})
-      search_params = {
-        :limit => limit + 1,
-        :min_rent => self.rent.to_i * 0.9,
-        :max_rent => self.rent.to_i * 1.1,
+    
+    def similar_listings_criteria
+      {
+        :price_low => self.rent.to_i * 0.9,
+        :price_high => self.rent.to_i * 1.1,
         :min_beds => ((self.bedrooms.to_i - 1) <= 0 ? 0 : (self.bedrooms.to_i - 1)),
         :max_beds => self.bedrooms.to_i + 1,
         :min_baths => ((self.bathrooms.to_i - 1) <= 0 ? 0 : (self.bathrooms.to_i - 1)),
         :max_baths => self.bathrooms.to_i + 1,
-        :neighborhoods => self.neighborhood_name
+        :towns => self.neighborhood_name
+      }
+    end
+
+    def similar_listings(limit = 6, search_options = {})
+      criteria = similar_listings_criteria
+      search_params = {
+        :limit => limit + 1,
+        :min_rent => criteria[:price_low],
+        :max_rent => criteria[:price_high],
+        :min_beds => criteria[:min_beds],
+        :max_beds => criteria[:max_beds],
+        :min_baths => criteria[:min_baths],
+        :max_baths => criteria[:max_baths],
+        :neighborhoods => criteria[:towns]
       }.merge(search_options)
       @cached_similars ||= begin
         similar = []
