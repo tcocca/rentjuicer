@@ -44,6 +44,19 @@ describe Rentjuicer::Listing do
   it "should return an array of photos sorted by the sort_order key for sorted_photos" do
     @listing.sorted_photos.should == sorted_photos_array
   end
+  
+  it "should return similar listings criteria" do
+    @listing.similar_listings_criteria.should ==
+      {
+        :towns=>"South Boston",
+        :max_beds=>4,
+        :price_low=>2250.0,
+        :min_baths=>0,
+        :max_baths=>2,
+        :price_high=>2750.0,
+        :min_beds=>2
+      }
+  end
 
   context "default similar listings" do
     before do
